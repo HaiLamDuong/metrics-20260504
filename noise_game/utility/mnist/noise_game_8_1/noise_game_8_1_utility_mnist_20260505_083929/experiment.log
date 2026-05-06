@@ -1,0 +1,7 @@
+2026-05-05 08:39:29 | INFO    | dpfl | Experiment start: algorithm=noise_game, dataset=mnist, model=mlp, device=cuda
+2026-05-05 08:39:29 | INFO    | dpfl | Config: nodes=500, attackers=0, rounds=300, noise_mode=none, attack=scale
+2026-05-05 08:39:29 | INFO    | dpfl.data.mnist_dataset | Loading MNIST dataset...
+2026-05-05 08:39:29 | INFO    | dpfl.data.mnist_dataset | MNIST loaded: 60000 train, 10000 test samples
+2026-05-05 08:40:16 | INFO    | dpfl.core.base_simulator | Vectorized state ready: param_spec.D=50890, X_test=(10000, 1, 28, 28), train clients N=500, max_n_samples=1000
+2026-05-05 08:40:16 | INFO    | dpfl.core.base_simulator | Setup complete: 500 nodes (0 attackers), param_dim=50890, split=iid
+2026-05-05 08:40:16 | DEBUG   | dpfl.core.base_simulator | Attacker IDs: set()

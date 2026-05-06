@@ -1,0 +1,799 @@
+2026-05-04 18:04:31 | INFO    | dpfl | Experiment start: algorithm=noise_game, dataset=mnist, model=mlp, device=cuda
+2026-05-04 18:04:31 | INFO    | dpfl | Config: nodes=500, attackers=0, rounds=300, noise_mode=none, attack=scale
+2026-05-04 18:04:31 | INFO    | dpfl.data.mnist_dataset | Loading MNIST dataset...
+2026-05-04 18:04:31 | INFO    | dpfl.data.mnist_dataset | MNIST loaded: 60000 train, 10000 test samples
+2026-05-04 18:05:21 | INFO    | dpfl.core.base_simulator | Vectorized state ready: param_spec.D=50890, X_test=(10000, 1, 28, 28), train clients N=500, max_n_samples=1000
+2026-05-04 18:05:21 | INFO    | dpfl.core.base_simulator | Setup complete: 500 nodes (0 attackers), param_dim=50890, split=iid
+2026-05-04 18:05:21 | DEBUG   | dpfl.core.base_simulator | Attacker IDs: set()
+2026-05-04 18:05:21 | INFO    | dpfl.core.base_simulator | Round   1/300 | Acc: 0.3807 | Loss: 2.0956 | eps_max: 1.91 eps_avg: 0.06 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:21 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.56', '0.57', '0.57', '0.56', '0.56'], attacker: []
+2026-05-04 18:05:22 | INFO    | dpfl.core.base_simulator | Round   2/300 | Acc: 0.5547 | Loss: 1.8906 | eps_max: 1.97 eps_avg: 0.15 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:22 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.56', '0.55', '0.56', '0.56', '0.56'], attacker: []
+2026-05-04 18:05:23 | INFO    | dpfl.core.base_simulator | Round   3/300 | Acc: 0.6505 | Loss: 1.6800 | eps_max: 2.06 eps_avg: 0.25 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:23 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.55', '0.55', '0.55', '0.55', '0.55'], attacker: []
+2026-05-04 18:05:24 | INFO    | dpfl.core.base_simulator | Round   4/300 | Acc: 0.7089 | Loss: 1.4802 | eps_max: 2.15 eps_avg: 0.36 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:24 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.54', '0.55', '0.54', '0.54', '0.54'], attacker: []
+2026-05-04 18:05:25 | INFO    | dpfl.core.base_simulator | Round   5/300 | Acc: 0.7500 | Loss: 1.3001 | eps_max: 2.25 eps_avg: 0.46 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:25 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.54', '0.54', '0.54', '0.54', '0.54'], attacker: []
+2026-05-04 18:05:26 | INFO    | dpfl.core.base_simulator | Round   6/300 | Acc: 0.7787 | Loss: 1.1460 | eps_max: 2.37 eps_avg: 0.52 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:26 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.53', '1.02', '1.02', '0.53', '1.02'], attacker: []
+2026-05-04 18:05:27 | INFO    | dpfl.core.base_simulator | Round   7/300 | Acc: 0.7993 | Loss: 1.0197 | eps_max: 2.37 eps_avg: 0.60 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:27 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.02', '0.53', '0.96', '0.52', '0.52'], attacker: []
+2026-05-04 18:05:28 | INFO    | dpfl.core.base_simulator | Round   8/300 | Acc: 0.8134 | Loss: 0.9189 | eps_max: 2.41 eps_avg: 0.70 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:28 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.52', '0.93', '0.84', '0.52', '0.52'], attacker: []
+2026-05-04 18:05:29 | INFO    | dpfl.core.base_simulator | Round   9/300 | Acc: 0.8237 | Loss: 0.8393 | eps_max: 2.44 eps_avg: 0.78 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:29 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.51', '0.51', '0.97', '1.54', '0.51'], attacker: []
+2026-05-04 18:05:30 | INFO    | dpfl.core.base_simulator | Round  10/300 | Acc: 0.8318 | Loss: 0.7757 | eps_max: 2.51 eps_avg: 0.86 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:30 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.93', '0.51', '0.83', '0.50', '0.84'], attacker: []
+2026-05-04 18:05:31 | INFO    | dpfl.core.base_simulator | Round  11/300 | Acc: 0.8378 | Loss: 0.7250 | eps_max: 2.51 eps_avg: 0.95 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:31 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.50', '0.50', '0.94', '0.50', '0.50'], attacker: []
+2026-05-04 18:05:32 | INFO    | dpfl.core.base_simulator | Round  12/300 | Acc: 0.8432 | Loss: 0.6834 | eps_max: 2.55 eps_avg: 1.03 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:32 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.49', '0.92', '0.95', '0.50', '1.43'], attacker: []
+2026-05-04 18:05:33 | INFO    | dpfl.core.base_simulator | Round  13/300 | Acc: 0.8474 | Loss: 0.6492 | eps_max: 2.60 eps_avg: 1.11 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:33 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.40', '0.49', '1.87', '1.46', '0.92'], attacker: []
+2026-05-04 18:05:34 | INFO    | dpfl.core.base_simulator | Round  14/300 | Acc: 0.8509 | Loss: 0.6206 | eps_max: 2.65 eps_avg: 1.16 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:34 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.87', '0.94', '0.48', '0.48', '0.90'], attacker: []
+2026-05-04 18:05:35 | INFO    | dpfl.core.base_simulator | Round  15/300 | Acc: 0.8543 | Loss: 0.5961 | eps_max: 2.65 eps_avg: 1.22 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:35 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.82', '0.48', '1.78', '0.48', '0.48'], attacker: []
+2026-05-04 18:05:36 | INFO    | dpfl.core.base_simulator | Round  16/300 | Acc: 0.8570 | Loss: 0.5754 | eps_max: 2.70 eps_avg: 1.27 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:36 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.80', '0.89', '1.88', '1.37', '0.47'], attacker: []
+2026-05-04 18:05:36 | INFO    | dpfl.core.base_simulator | Round  17/300 | Acc: 0.8594 | Loss: 0.5573 | eps_max: 2.80 eps_avg: 1.31 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:36 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.84', '1.45', '1.86', '0.47', '1.36'], attacker: []
+2026-05-04 18:05:37 | INFO    | dpfl.core.base_simulator | Round  18/300 | Acc: 0.8615 | Loss: 0.5416 | eps_max: 2.83 eps_avg: 1.37 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:37 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.25', '1.88', '0.46', '0.85', '0.88'], attacker: []
+2026-05-04 18:05:38 | INFO    | dpfl.core.base_simulator | Round  19/300 | Acc: 0.8635 | Loss: 0.5278 | eps_max: 2.99 eps_avg: 1.42 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:38 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.45', '1.93', '0.45', '0.88', '0.46'], attacker: []
+2026-05-04 18:05:39 | INFO    | dpfl.core.base_simulator | Round  20/300 | Acc: 0.8651 | Loss: 0.5155 | eps_max: 3.18 eps_avg: 1.49 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:39 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.24', '1.70', '1.68', '1.13', '0.45'], attacker: []
+2026-05-04 18:05:40 | INFO    | dpfl.core.base_simulator | Round  21/300 | Acc: 0.8667 | Loss: 0.5046 | eps_max: 3.29 eps_avg: 1.56 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:40 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.44', '0.44', '1.93', '0.67', '0.83'], attacker: []
+2026-05-04 18:05:41 | INFO    | dpfl.core.base_simulator | Round  22/300 | Acc: 0.8682 | Loss: 0.4949 | eps_max: 3.29 eps_avg: 1.61 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:41 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.31', '0.83', '0.71', '1.08', '0.44'], attacker: []
+2026-05-04 18:05:42 | INFO    | dpfl.core.base_simulator | Round  23/300 | Acc: 0.8693 | Loss: 0.4863 | eps_max: 3.29 eps_avg: 1.66 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:42 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.84', '1.70', '2.09', '0.80', '0.82'], attacker: []
+2026-05-04 18:05:43 | INFO    | dpfl.core.base_simulator | Round  24/300 | Acc: 0.8705 | Loss: 0.4784 | eps_max: 3.33 eps_avg: 1.72 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:43 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.25', '0.57', '1.24', '1.81', '0.43'], attacker: []
+2026-05-04 18:05:44 | INFO    | dpfl.core.base_simulator | Round  25/300 | Acc: 0.8714 | Loss: 0.4713 | eps_max: 3.36 eps_avg: 1.77 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:44 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.21', '1.22', '0.43', '0.75', '0.78'], attacker: []
+2026-05-04 18:05:45 | INFO    | dpfl.core.base_simulator | Round  26/300 | Acc: 0.8725 | Loss: 0.4646 | eps_max: 3.41 eps_avg: 1.84 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:45 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.42', '0.78', '0.72', '1.21', '0.42'], attacker: []
+2026-05-04 18:05:46 | INFO    | dpfl.core.base_simulator | Round  27/300 | Acc: 0.8733 | Loss: 0.4585 | eps_max: 3.47 eps_avg: 1.89 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:46 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.20', '0.62', '1.76', '1.15', '0.41'], attacker: []
+2026-05-04 18:05:47 | INFO    | dpfl.core.base_simulator | Round  28/300 | Acc: 0.8741 | Loss: 0.4531 | eps_max: 3.53 eps_avg: 1.95 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:47 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.65', '0.41', '0.41', '1.12', '1.70'], attacker: []
+2026-05-04 18:05:48 | INFO    | dpfl.core.base_simulator | Round  29/300 | Acc: 0.8749 | Loss: 0.4480 | eps_max: 3.60 eps_avg: 2.01 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:48 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.17', '0.40', '1.14', '1.76', '1.16'], attacker: []
+2026-05-04 18:05:49 | INFO    | dpfl.core.base_simulator | Round  30/300 | Acc: 0.8756 | Loss: 0.4433 | eps_max: 3.67 eps_avg: 2.05 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:49 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.56', '1.35', '0.72', '1.43', '0.40'], attacker: []
+2026-05-04 18:05:50 | INFO    | dpfl.core.base_simulator | Round  31/300 | Acc: 0.8762 | Loss: 0.4392 | eps_max: 3.75 eps_avg: 2.12 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:50 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.83', '0.65', '2.12', '0.39', '0.49'], attacker: []
+2026-05-04 18:05:51 | INFO    | dpfl.core.base_simulator | Round  32/300 | Acc: 0.8768 | Loss: 0.4353 | eps_max: 3.88 eps_avg: 2.15 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:51 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.72', '0.83', '1.22', '0.39', '1.45'], attacker: []
+2026-05-04 18:05:52 | INFO    | dpfl.core.base_simulator | Round  33/300 | Acc: 0.8773 | Loss: 0.4316 | eps_max: 3.94 eps_avg: 2.22 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:52 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.01', '0.38', '1.86', '0.76', '1.62'], attacker: []
+2026-05-04 18:05:53 | INFO    | dpfl.core.base_simulator | Round  34/300 | Acc: 0.8777 | Loss: 0.4284 | eps_max: 4.04 eps_avg: 2.28 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:53 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.18', '1.66', '0.38', '0.58', '0.38'], attacker: []
+2026-05-04 18:05:54 | INFO    | dpfl.core.base_simulator | Round  35/300 | Acc: 0.8782 | Loss: 0.4255 | eps_max: 4.14 eps_avg: 2.35 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:54 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.75', '1.06', '0.37', '0.70', '1.43'], attacker: []
+2026-05-04 18:05:55 | INFO    | dpfl.core.base_simulator | Round  36/300 | Acc: 0.8787 | Loss: 0.4225 | eps_max: 4.25 eps_avg: 2.39 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:55 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.66', '0.68', '1.86', '1.15', '0.37'], attacker: []
+2026-05-04 18:05:57 | INFO    | dpfl.core.base_simulator | Round  37/300 | Acc: 0.8791 | Loss: 0.4197 | eps_max: 4.36 eps_avg: 2.46 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:57 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.37', '0.48', '1.07', '0.60', '1.19'], attacker: []
+2026-05-04 18:05:58 | INFO    | dpfl.core.base_simulator | Round  38/300 | Acc: 0.8795 | Loss: 0.4172 | eps_max: 4.48 eps_avg: 2.52 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:58 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.42', '0.54', '1.85', '1.56', '0.72'], attacker: []
+2026-05-04 18:05:59 | INFO    | dpfl.core.base_simulator | Round  39/300 | Acc: 0.8797 | Loss: 0.4151 | eps_max: 4.92 eps_avg: 2.57 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:05:59 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.32', '1.91', '2.41', '0.63', '0.60'], attacker: []
+2026-05-04 18:06:00 | INFO    | dpfl.core.base_simulator | Round  40/300 | Acc: 0.8801 | Loss: 0.4127 | eps_max: 4.96 eps_avg: 2.62 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:00 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.96', '1.11', '0.35', '1.34', '0.98'], attacker: []
+2026-05-04 18:06:01 | INFO    | dpfl.core.base_simulator | Round  41/300 | Acc: 0.8805 | Loss: 0.4107 | eps_max: 4.96 eps_avg: 2.68 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:01 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.30', '1.19', '1.30', '0.85', '2.39'], attacker: []
+2026-05-04 18:06:03 | INFO    | dpfl.core.base_simulator | Round  42/300 | Acc: 0.8806 | Loss: 0.4092 | eps_max: 5.08 eps_avg: 2.77 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:03 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.22', '2.03', '1.10', '1.02', '0.62'], attacker: []
+2026-05-04 18:06:04 | INFO    | dpfl.core.base_simulator | Round  43/300 | Acc: 0.8810 | Loss: 0.4071 | eps_max: 5.19 eps_avg: 2.84 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:04 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.22', '1.08', '0.62', '1.81', '1.03'], attacker: []
+2026-05-04 18:06:05 | INFO    | dpfl.core.base_simulator | Round  44/300 | Acc: 0.8812 | Loss: 0.4056 | eps_max: 5.19 eps_avg: 2.91 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:05 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.02', '2.29', '1.55', '0.87', '1.75'], attacker: []
+2026-05-04 18:06:06 | INFO    | dpfl.core.base_simulator | Round  45/300 | Acc: 0.8814 | Loss: 0.4044 | eps_max: 5.31 eps_avg: 3.02 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:06 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.26', '0.34', '1.73', '2.66', '0.64'], attacker: []
+2026-05-04 18:06:08 | INFO    | dpfl.core.base_simulator | Round  46/300 | Acc: 0.8816 | Loss: 0.4030 | eps_max: 5.31 eps_avg: 3.06 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:08 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.10', '1.43', '1.75', '2.06', '1.58'], attacker: []
+2026-05-04 18:06:09 | INFO    | dpfl.core.base_simulator | Round  47/300 | Acc: 0.8819 | Loss: 0.4013 | eps_max: 5.33 eps_avg: 3.11 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:09 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.46', '1.22', '1.34', '1.74', '1.08'], attacker: []
+2026-05-04 18:06:10 | INFO    | dpfl.core.base_simulator | Round  48/300 | Acc: 0.8819 | Loss: 0.4006 | eps_max: 5.33 eps_avg: 3.20 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:10 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.65', '2.72', '2.77', '0.34', '1.52'], attacker: []
+2026-05-04 18:06:11 | INFO    | dpfl.core.base_simulator | Round  49/300 | Acc: 0.8821 | Loss: 0.3992 | eps_max: 5.33 eps_avg: 3.24 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:11 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.67', '2.47', '0.72', '1.32', '0.60'], attacker: []
+2026-05-04 18:06:12 | INFO    | dpfl.core.base_simulator | Round  50/300 | Acc: 0.8822 | Loss: 0.3983 | eps_max: 5.53 eps_avg: 3.29 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:12 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.93', '0.58', '0.85', '1.32', '2.13'], attacker: []
+2026-05-04 18:06:14 | INFO    | dpfl.core.base_simulator | Round  51/300 | Acc: 0.8824 | Loss: 0.3973 | eps_max: 5.53 eps_avg: 3.37 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:14 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.06', '0.68', '1.12', '1.49', '0.34'], attacker: []
+2026-05-04 18:06:15 | INFO    | dpfl.core.base_simulator | Round  52/300 | Acc: 0.8824 | Loss: 0.3966 | eps_max: 5.53 eps_avg: 3.43 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:15 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.83', '3.35', '1.16', '0.67', '1.38'], attacker: []
+2026-05-04 18:06:16 | INFO    | dpfl.core.base_simulator | Round  53/300 | Acc: 0.8825 | Loss: 0.3958 | eps_max: 5.53 eps_avg: 3.50 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:16 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.34', '1.58', '2.37', '0.34', '2.00'], attacker: []
+2026-05-04 18:06:17 | INFO    | dpfl.core.base_simulator | Round  54/300 | Acc: 0.8826 | Loss: 0.3949 | eps_max: 5.53 eps_avg: 3.55 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:17 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.47', '2.17', '0.54', '0.34', '0.46'], attacker: []
+2026-05-04 18:06:34 | INFO    | dpfl.core.base_simulator | Round  55/300 | Acc: 0.8826 | Loss: 0.3946 | eps_max: 5.86 eps_avg: 3.62 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:34 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.70', '2.71', '0.43', '1.20', '1.01'], attacker: []
+2026-05-04 18:06:54 | INFO    | dpfl.core.base_simulator | Round  56/300 | Acc: 0.8828 | Loss: 0.3937 | eps_max: 5.86 eps_avg: 3.65 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:06:54 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.74', '0.92', '0.59', '1.46', '0.64'], attacker: []
+2026-05-04 18:07:04 | INFO    | dpfl.core.base_simulator | Round  57/300 | Acc: 0.8830 | Loss: 0.3927 | eps_max: 5.86 eps_avg: 3.70 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:04 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.54', '0.58', '1.35', '1.57', '0.51'], attacker: []
+2026-05-04 18:07:06 | INFO    | dpfl.core.base_simulator | Round  58/300 | Acc: 0.8831 | Loss: 0.3920 | eps_max: 6.06 eps_avg: 3.81 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:06 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.59', '0.49', '0.80', '1.60', '0.80'], attacker: []
+2026-05-04 18:07:08 | INFO    | dpfl.core.base_simulator | Round  59/300 | Acc: 0.8831 | Loss: 0.3916 | eps_max: 6.06 eps_avg: 3.91 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:08 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.67', '1.15', '0.34', '1.02', '2.45'], attacker: []
+2026-05-04 18:07:10 | INFO    | dpfl.core.base_simulator | Round  60/300 | Acc: 0.8832 | Loss: 0.3911 | eps_max: 6.28 eps_avg: 3.98 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:10 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.00', '1.02', '1.19', '1.14', '0.49'], attacker: []
+2026-05-04 18:07:12 | INFO    | dpfl.core.base_simulator | Round  61/300 | Acc: 0.8832 | Loss: 0.3908 | eps_max: 6.28 eps_avg: 4.02 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:12 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.66', '1.22', '0.59', '1.34', '1.54'], attacker: []
+2026-05-04 18:07:13 | INFO    | dpfl.core.base_simulator | Round  62/300 | Acc: 0.8833 | Loss: 0.3903 | eps_max: 6.28 eps_avg: 4.11 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:13 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.95', '0.34', '1.92', '1.62', '1.57'], attacker: []
+2026-05-04 18:07:15 | INFO    | dpfl.core.base_simulator | Round  63/300 | Acc: 0.8833 | Loss: 0.3900 | eps_max: 6.40 eps_avg: 4.18 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:15 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.84', '0.34', '1.79', '1.97', '1.49'], attacker: []
+2026-05-04 18:07:17 | INFO    | dpfl.core.base_simulator | Round  64/300 | Acc: 0.8832 | Loss: 0.3901 | eps_max: 6.50 eps_avg: 4.24 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:17 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.89', '1.22', '1.93', '0.55', '0.93'], attacker: []
+2026-05-04 18:07:19 | INFO    | dpfl.core.base_simulator | Round  65/300 | Acc: 0.8830 | Loss: 0.3903 | eps_max: 6.50 eps_avg: 4.31 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:19 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.76', '1.40', '3.33', '1.57', '0.86'], attacker: []
+2026-05-04 18:07:21 | INFO    | dpfl.core.base_simulator | Round  66/300 | Acc: 0.8832 | Loss: 0.3898 | eps_max: 6.50 eps_avg: 4.36 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:21 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.52', '1.13', '2.21', '1.07', '0.55'], attacker: []
+2026-05-04 18:07:22 | INFO    | dpfl.core.base_simulator | Round  67/300 | Acc: 0.8833 | Loss: 0.3895 | eps_max: 6.50 eps_avg: 4.41 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:22 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.67', '1.76', '1.47', '1.52', '0.49'], attacker: []
+2026-05-04 18:07:23 | INFO    | dpfl.core.base_simulator | Round  68/300 | Acc: 0.8832 | Loss: 0.3895 | eps_max: 6.50 eps_avg: 4.49 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:23 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.34', '3.22', '1.22', '1.22', '0.81'], attacker: []
+2026-05-04 18:07:25 | INFO    | dpfl.core.base_simulator | Round  69/300 | Acc: 0.8831 | Loss: 0.3897 | eps_max: 6.50 eps_avg: 4.57 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:25 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.34', '1.48', '0.77', '0.99', '1.97'], attacker: []
+2026-05-04 18:07:27 | INFO    | dpfl.core.base_simulator | Round  70/300 | Acc: 0.8832 | Loss: 0.3892 | eps_max: 6.50 eps_avg: 4.61 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:27 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.54', '1.07', '0.99', '2.09', '1.09'], attacker: []
+2026-05-04 18:07:27 | INFO    | dpfl.core.base_simulator | Round  71/300 | Acc: 0.8832 | Loss: 0.3891 | eps_max: 6.50 eps_avg: 4.64 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:27 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.35', '1.25', '2.23', '2.75', '1.41'], attacker: []
+2026-05-04 18:07:29 | INFO    | dpfl.core.base_simulator | Round  72/300 | Acc: 0.8832 | Loss: 0.3891 | eps_max: 6.70 eps_avg: 4.67 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:29 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.32', '0.98', '0.87', '1.02', '0.53'], attacker: []
+2026-05-04 18:07:30 | INFO    | dpfl.core.base_simulator | Round  73/300 | Acc: 0.8832 | Loss: 0.3892 | eps_max: 6.70 eps_avg: 4.73 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:30 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.81', '1.46', '0.58', '1.15', '1.44'], attacker: []
+2026-05-04 18:07:31 | INFO    | dpfl.core.base_simulator | Round  74/300 | Acc: 0.8830 | Loss: 0.3896 | eps_max: 6.70 eps_avg: 4.79 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:31 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.34', '2.16', '1.02', '1.64', '1.03'], attacker: []
+2026-05-04 18:07:33 | INFO    | dpfl.core.base_simulator | Round  75/300 | Acc: 0.8831 | Loss: 0.3894 | eps_max: 6.70 eps_avg: 4.84 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:33 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.51', '2.02', '1.76', '1.06', '0.84'], attacker: []
+2026-05-04 18:07:34 | INFO    | dpfl.core.base_simulator | Round  76/300 | Acc: 0.8830 | Loss: 0.3897 | eps_max: 6.92 eps_avg: 4.87 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:34 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.03', '1.98', '2.24', '0.53', '1.78'], attacker: []
+2026-05-04 18:07:36 | INFO    | dpfl.core.base_simulator | Round  77/300 | Acc: 0.8829 | Loss: 0.3899 | eps_max: 7.02 eps_avg: 4.92 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:36 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.34', '1.93', '1.91', '2.06', '0.45'], attacker: []
+2026-05-04 18:07:38 | INFO    | dpfl.core.base_simulator | Round  78/300 | Acc: 0.8827 | Loss: 0.3905 | eps_max: 7.02 eps_avg: 4.95 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:38 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.30', '1.50', '1.45', '1.42', '2.80'], attacker: []
+2026-05-04 18:07:39 | INFO    | dpfl.core.base_simulator | Round  79/300 | Acc: 0.8828 | Loss: 0.3905 | eps_max: 7.02 eps_avg: 4.97 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:39 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.14', '3.37', '1.88', '2.10', '1.10'], attacker: []
+2026-05-04 18:07:40 | INFO    | dpfl.core.base_simulator | Round  80/300 | Acc: 0.8828 | Loss: 0.3905 | eps_max: 7.02 eps_avg: 5.02 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:40 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.34', '1.74', '0.92', '1.69', '2.43'], attacker: []
+2026-05-04 18:07:42 | INFO    | dpfl.core.base_simulator | Round  81/300 | Acc: 0.8826 | Loss: 0.3911 | eps_max: 7.09 eps_avg: 5.06 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:42 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.00', '1.70', '1.25', '2.34', '1.36'], attacker: []
+2026-05-04 18:07:44 | INFO    | dpfl.core.base_simulator | Round  82/300 | Acc: 0.8825 | Loss: 0.3914 | eps_max: 7.09 eps_avg: 5.10 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:44 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.11', '0.83', '1.42', '2.47', '1.25'], attacker: []
+2026-05-04 18:07:44 | INFO    | dpfl.core.base_simulator | Round  83/300 | Acc: 0.8827 | Loss: 0.3911 | eps_max: 7.09 eps_avg: 5.12 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:44 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.55', '1.70', '1.43', '2.33', '0.55'], attacker: []
+2026-05-04 18:07:45 | INFO    | dpfl.core.base_simulator | Round  84/300 | Acc: 0.8826 | Loss: 0.3915 | eps_max: 7.09 eps_avg: 5.16 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:45 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.50', '2.68', '1.46', '1.86', '2.18'], attacker: []
+2026-05-04 18:07:47 | INFO    | dpfl.core.base_simulator | Round  85/300 | Acc: 0.8825 | Loss: 0.3921 | eps_max: 7.37 eps_avg: 5.19 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:47 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.81', '1.53', '2.63', '0.65', '2.44'], attacker: []
+2026-05-04 18:07:48 | INFO    | dpfl.core.base_simulator | Round  86/300 | Acc: 0.8825 | Loss: 0.3923 | eps_max: 7.37 eps_avg: 5.22 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:48 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.90', '1.32', '1.18', '1.59', '2.50'], attacker: []
+2026-05-04 18:07:49 | INFO    | dpfl.core.base_simulator | Round  87/300 | Acc: 0.8824 | Loss: 0.3928 | eps_max: 7.37 eps_avg: 5.25 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:49 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.55', '0.88', '1.78', '2.56', '1.58'], attacker: []
+2026-05-04 18:07:50 | INFO    | dpfl.core.base_simulator | Round  88/300 | Acc: 0.8823 | Loss: 0.3929 | eps_max: 7.37 eps_avg: 5.28 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:50 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.67', '1.31', '1.80', '0.31', '0.83'], attacker: []
+2026-05-04 18:07:52 | INFO    | dpfl.core.base_simulator | Round  89/300 | Acc: 0.8821 | Loss: 0.3937 | eps_max: 7.37 eps_avg: 5.31 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:52 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.47', '1.04', '1.29', '1.65', '1.40'], attacker: []
+2026-05-04 18:07:53 | INFO    | dpfl.core.base_simulator | Round  90/300 | Acc: 0.8821 | Loss: 0.3939 | eps_max: 7.37 eps_avg: 5.34 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:53 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.93', '3.82', '1.48', '1.22', '1.00'], attacker: []
+2026-05-04 18:07:55 | INFO    | dpfl.core.base_simulator | Round  91/300 | Acc: 0.8818 | Loss: 0.3950 | eps_max: 7.41 eps_avg: 5.41 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:55 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.80', '2.18', '1.15', '2.36', '2.17'], attacker: []
+2026-05-04 18:07:57 | INFO    | dpfl.core.base_simulator | Round  92/300 | Acc: 0.8818 | Loss: 0.3951 | eps_max: 7.41 eps_avg: 5.44 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:57 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.55', '1.69', '1.31', '2.12', '1.93'], attacker: []
+2026-05-04 18:07:59 | INFO    | dpfl.core.base_simulator | Round  93/300 | Acc: 0.8817 | Loss: 0.3955 | eps_max: 7.41 eps_avg: 5.46 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:07:59 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.70', '2.86', '1.37', '2.69', '1.30'], attacker: []
+2026-05-04 18:08:00 | INFO    | dpfl.core.base_simulator | Round  94/300 | Acc: 0.8816 | Loss: 0.3964 | eps_max: 7.51 eps_avg: 5.49 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:00 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.97', '2.64', '2.58', '0.81', '1.37'], attacker: []
+2026-05-04 18:08:02 | INFO    | dpfl.core.base_simulator | Round  95/300 | Acc: 0.8816 | Loss: 0.3965 | eps_max: 7.51 eps_avg: 5.52 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:02 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.11', '1.59', '1.86', '0.34', '1.59'], attacker: []
+2026-05-04 18:08:04 | INFO    | dpfl.core.base_simulator | Round  96/300 | Acc: 0.8815 | Loss: 0.3970 | eps_max: 7.51 eps_avg: 5.56 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:04 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.12', '2.37', '1.28', '1.34', '1.45'], attacker: []
+2026-05-04 18:08:06 | INFO    | dpfl.core.base_simulator | Round  97/300 | Acc: 0.8813 | Loss: 0.3979 | eps_max: 7.63 eps_avg: 5.61 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:06 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.56', '1.22', '2.39', '1.23', '1.03'], attacker: []
+2026-05-04 18:08:08 | INFO    | dpfl.core.base_simulator | Round  98/300 | Acc: 0.8813 | Loss: 0.3981 | eps_max: 7.63 eps_avg: 5.64 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:08 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.05', '2.04', '1.12', '1.92', '2.75'], attacker: []
+2026-05-04 18:08:09 | INFO    | dpfl.core.base_simulator | Round  99/300 | Acc: 0.8813 | Loss: 0.3983 | eps_max: 7.63 eps_avg: 5.66 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:09 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.90', '0.97', '1.41', '1.34', '2.03'], attacker: []
+2026-05-04 18:08:10 | INFO    | dpfl.core.base_simulator | Round 100/300 | Acc: 0.8812 | Loss: 0.3989 | eps_max: 7.63 eps_avg: 5.68 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:10 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.34', '2.18', '2.38', '1.92', '2.05'], attacker: []
+2026-05-04 18:08:11 | INFO    | dpfl.core.base_simulator | Round 101/300 | Acc: 0.8811 | Loss: 0.3998 | eps_max: 7.63 eps_avg: 5.70 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:11 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.42', '1.45', '1.75', '1.25', '1.48'], attacker: []
+2026-05-04 18:08:13 | INFO    | dpfl.core.base_simulator | Round 102/300 | Acc: 0.8810 | Loss: 0.4003 | eps_max: 7.63 eps_avg: 5.74 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:13 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.59', '0.48', '1.51', '0.99', '2.56'], attacker: []
+2026-05-04 18:08:14 | INFO    | dpfl.core.base_simulator | Round 103/300 | Acc: 0.8807 | Loss: 0.4014 | eps_max: 7.63 eps_avg: 5.78 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:14 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.99', '2.20', '0.94', '0.59', '2.22'], attacker: []
+2026-05-04 18:08:16 | INFO    | dpfl.core.base_simulator | Round 104/300 | Acc: 0.8806 | Loss: 0.4019 | eps_max: 7.63 eps_avg: 5.81 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:16 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.41', '0.34', '1.90', '1.74', '1.40'], attacker: []
+2026-05-04 18:08:17 | INFO    | dpfl.core.base_simulator | Round 105/300 | Acc: 0.8805 | Loss: 0.4028 | eps_max: 7.63 eps_avg: 5.84 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:17 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.96', '0.86', '1.46', '1.91', '2.37'], attacker: []
+2026-05-04 18:08:19 | INFO    | dpfl.core.base_simulator | Round 106/300 | Acc: 0.8804 | Loss: 0.4034 | eps_max: 7.63 eps_avg: 5.87 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:19 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.81', '3.22', '1.45', '2.89', '0.75'], attacker: []
+2026-05-04 18:08:20 | INFO    | dpfl.core.base_simulator | Round 107/300 | Acc: 0.8802 | Loss: 0.4043 | eps_max: 7.71 eps_avg: 5.89 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:20 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.04', '3.04', '2.58', '0.82', '1.33'], attacker: []
+2026-05-04 18:08:21 | INFO    | dpfl.core.base_simulator | Round 108/300 | Acc: 0.8800 | Loss: 0.4052 | eps_max: 7.71 eps_avg: 5.92 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:21 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.50', '2.41', '2.63', '1.77', '0.94'], attacker: []
+2026-05-04 18:08:23 | INFO    | dpfl.core.base_simulator | Round 109/300 | Acc: 0.8799 | Loss: 0.4060 | eps_max: 7.71 eps_avg: 5.94 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:23 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.51', '2.71', '1.92', '1.74', '1.35'], attacker: []
+2026-05-04 18:08:24 | INFO    | dpfl.core.base_simulator | Round 110/300 | Acc: 0.8795 | Loss: 0.4077 | eps_max: 7.71 eps_avg: 5.98 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:24 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.77', '2.35', '0.52', '3.35', '0.74'], attacker: []
+2026-05-04 18:08:27 | INFO    | dpfl.core.base_simulator | Round 111/300 | Acc: 0.8792 | Loss: 0.4090 | eps_max: 7.71 eps_avg: 6.01 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:27 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.48', '2.34', '2.22', '1.91', '1.45'], attacker: []
+2026-05-04 18:08:28 | INFO    | dpfl.core.base_simulator | Round 112/300 | Acc: 0.8792 | Loss: 0.4097 | eps_max: 7.71 eps_avg: 6.03 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:28 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.15', '0.53', '1.96', '2.73', '1.64'], attacker: []
+2026-05-04 18:08:30 | INFO    | dpfl.core.base_simulator | Round 113/300 | Acc: 0.8791 | Loss: 0.4103 | eps_max: 7.71 eps_avg: 6.05 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:30 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.82', '0.94', '2.41', '2.16', '1.86'], attacker: []
+2026-05-04 18:08:31 | INFO    | dpfl.core.base_simulator | Round 114/300 | Acc: 0.8786 | Loss: 0.4122 | eps_max: 7.71 eps_avg: 6.07 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:31 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.80', '2.43', '1.66', '2.01', '0.95'], attacker: []
+2026-05-04 18:08:34 | INFO    | dpfl.core.base_simulator | Round 115/300 | Acc: 0.8785 | Loss: 0.4130 | eps_max: 7.71 eps_avg: 6.09 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:34 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.15', '2.71', '1.69', '2.36', '2.65'], attacker: []
+2026-05-04 18:08:36 | INFO    | dpfl.core.base_simulator | Round 116/300 | Acc: 0.8784 | Loss: 0.4140 | eps_max: 7.71 eps_avg: 6.12 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:36 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.83', '2.24', '0.96', '1.83', '1.98'], attacker: []
+2026-05-04 18:08:37 | INFO    | dpfl.core.base_simulator | Round 117/300 | Acc: 0.8781 | Loss: 0.4156 | eps_max: 7.71 eps_avg: 6.14 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:37 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.12', '3.26', '2.26', '3.08', '2.25'], attacker: []
+2026-05-04 18:08:39 | INFO    | dpfl.core.base_simulator | Round 118/300 | Acc: 0.8779 | Loss: 0.4164 | eps_max: 7.71 eps_avg: 6.17 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:39 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.69', '1.26', '2.31', '1.41', '2.76'], attacker: []
+2026-05-04 18:08:41 | INFO    | dpfl.core.base_simulator | Round 119/300 | Acc: 0.8773 | Loss: 0.4187 | eps_max: 7.76 eps_avg: 6.20 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:41 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.80', '2.60', '1.66', '2.17', '2.49'], attacker: []
+2026-05-04 18:08:42 | INFO    | dpfl.core.base_simulator | Round 120/300 | Acc: 0.8775 | Loss: 0.4187 | eps_max: 7.76 eps_avg: 6.22 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:42 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.80', '1.90', '1.78', '2.36', '1.60'], attacker: []
+2026-05-04 18:08:43 | INFO    | dpfl.core.base_simulator | Round 121/300 | Acc: 0.8771 | Loss: 0.4204 | eps_max: 7.76 eps_avg: 6.24 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:43 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.60', '2.10', '3.19', '1.22', '1.91'], attacker: []
+2026-05-04 18:08:44 | INFO    | dpfl.core.base_simulator | Round 122/300 | Acc: 0.8768 | Loss: 0.4222 | eps_max: 7.76 eps_avg: 6.26 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:44 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.11', '3.21', '1.67', '2.18', '1.28'], attacker: []
+2026-05-04 18:08:45 | INFO    | dpfl.core.base_simulator | Round 123/300 | Acc: 0.8766 | Loss: 0.4229 | eps_max: 7.76 eps_avg: 6.28 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:45 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.91', '3.62', '1.84', '1.15', '1.95'], attacker: []
+2026-05-04 18:08:47 | INFO    | dpfl.core.base_simulator | Round 124/300 | Acc: 0.8765 | Loss: 0.4240 | eps_max: 7.76 eps_avg: 6.29 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:47 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.52', '1.66', '2.67', '1.53', '1.22'], attacker: []
+2026-05-04 18:08:48 | INFO    | dpfl.core.base_simulator | Round 125/300 | Acc: 0.8766 | Loss: 0.4242 | eps_max: 7.81 eps_avg: 6.31 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:48 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.43', '1.80', '2.14', '2.32', '3.06'], attacker: []
+2026-05-04 18:08:49 | INFO    | dpfl.core.base_simulator | Round 126/300 | Acc: 0.8765 | Loss: 0.4248 | eps_max: 7.81 eps_avg: 6.34 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:49 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.76', '1.25', '2.21', '2.25', '2.16'], attacker: []
+2026-05-04 18:08:50 | INFO    | dpfl.core.base_simulator | Round 127/300 | Acc: 0.8764 | Loss: 0.4259 | eps_max: 7.81 eps_avg: 6.36 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:50 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.10', '1.08', '1.81', '2.60', '2.35'], attacker: []
+2026-05-04 18:08:51 | INFO    | dpfl.core.base_simulator | Round 128/300 | Acc: 0.8760 | Loss: 0.4279 | eps_max: 7.83 eps_avg: 6.38 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:51 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['4.34', '3.01', '2.20', '2.20', '1.06'], attacker: []
+2026-05-04 18:08:52 | INFO    | dpfl.core.base_simulator | Round 129/300 | Acc: 0.8762 | Loss: 0.4276 | eps_max: 7.83 eps_avg: 6.39 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:52 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.28', '0.75', '1.65', '0.79', '1.26'], attacker: []
+2026-05-04 18:08:54 | INFO    | dpfl.core.base_simulator | Round 130/300 | Acc: 0.8759 | Loss: 0.4290 | eps_max: 7.83 eps_avg: 6.42 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:54 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['2.10', '1.12', '1.52', '2.19', '1.42'], attacker: []
+2026-05-04 18:08:56 | INFO    | dpfl.core.base_simulator | Round 131/300 | Acc: 0.8757 | Loss: 0.4306 | eps_max: 7.83 eps_avg: 6.43 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:56 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['0.92', '1.57', '0.93', '3.41', '3.60'], attacker: []
+2026-05-04 18:08:57 | INFO    | dpfl.core.base_simulator | Round 132/300 | Acc: 0.8755 | Loss: 0.4315 | eps_max: 7.95 eps_avg: 6.45 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:57 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['1.81', '2.17', '2.18', '2.76', '3.04'], attacker: []
+2026-05-04 18:08:58 | INFO    | dpfl.core.base_simulator | Round 133/300 | Acc: 0.8751 | Loss: 0.4332 | eps_max: 8.08 eps_avg: 6.47 | P: 0.00 R: 0.00 F1: 0.00
+2026-05-04 18:08:58 | DEBUG   | dpfl.core.base_simulator | Update norms — honest: ['3.79', '2.61', '2.61', '2.07', '1.84'], attacker: []
+2026-05-04 18:08:58 | WARNING | dpfl.algorithms.noise_game.simulator | Round 133/300 | Budget exceeded (eps_max=8.08 > 8.00)
+2026-05-04 18:09:00 | INFO    | dpfl | Experiment complete in 267.1s
+============================================================
+REPORT: DP-SGD Decentralized Federated Learning
+============================================================
+Timestamp:                  20260504_180431
+Rounds completed:           133
+Attack-active rounds:       0  (from round 99999)
+Final accuracy:             0.8751
+Final test loss:            0.4332
+Final epsilon (max honest): 8.08
+Final epsilon (avg honest): 6.47
+Best alpha:                 1000.0
+Avg precision:              0.0000
+Avg recall:                 0.0000
+Avg F1 score:               0.0000
+Avg update norm (honest):   1.4055
+Avg update norm (attacker): 0.0000
+
+=== PER-NODE PRIVACY COST (final round) ===
+Node   0 (honest  )  eps =   6.5143  sigma =  0.000  frozen = False
+Node   1 (honest  )  eps =   7.2953  sigma =  0.000  frozen = False
+Node   2 (honest  )  eps =   6.4868  sigma =  0.000  frozen = False
+Node   3 (honest  )  eps =   6.1889  sigma =  0.000  frozen = False
+Node   4 (honest  )  eps =   5.6411  sigma =  0.000  frozen = False
+Node   5 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node   6 (honest  )  eps =   6.1452  sigma =  0.000  frozen = False
+Node   7 (honest  )  eps =   6.5690  sigma =  0.000  frozen = False
+Node   8 (honest  )  eps =   7.4685  sigma =  0.000  frozen = False
+Node   9 (honest  )  eps =   6.1429  sigma =  0.000  frozen = False
+Node  10 (honest  )  eps =   5.6490  sigma =  0.000  frozen = False
+Node  11 (honest  )  eps =   6.5435  sigma =  0.000  frozen = False
+Node  12 (honest  )  eps =   6.7195  sigma =  0.000  frozen = False
+Node  13 (honest  )  eps =   6.4803  sigma =  0.000  frozen = False
+Node  14 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node  15 (honest  )  eps =   6.7134  sigma =  0.000  frozen = False
+Node  16 (honest  )  eps =   7.5767  sigma =  0.000  frozen = False
+Node  17 (honest  )  eps =   5.8356  sigma =  0.000  frozen = False
+Node  18 (honest  )  eps =   6.6125  sigma =  0.000  frozen = False
+Node  19 (honest  )  eps =   6.4439  sigma =  0.000  frozen = False
+Node  20 (honest  )  eps =   6.2622  sigma =  0.000  frozen = False
+Node  21 (honest  )  eps =   5.8635  sigma =  0.000  frozen = False
+Node  22 (honest  )  eps =   7.2948  sigma =  0.000  frozen = False
+Node  23 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node  24 (honest  )  eps =   5.6688  sigma =  0.000  frozen = False
+Node  25 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node  26 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node  27 (honest  )  eps =   7.0360  sigma =  0.000  frozen = False
+Node  28 (honest  )  eps =   7.4853  sigma =  0.600  frozen = False
+Node  29 (honest  )  eps =   5.9221  sigma =  0.000  frozen = False
+Node  30 (honest  )  eps =   6.7064  sigma =  0.000  frozen = False
+Node  31 (honest  )  eps =   5.9954  sigma =  0.000  frozen = False
+Node  32 (honest  )  eps =   5.4013  sigma =  0.000  frozen = False
+Node  33 (honest  )  eps =   7.4122  sigma =  0.000  frozen = False
+Node  34 (honest  )  eps =   6.5545  sigma =  0.000  frozen = False
+Node  35 (honest  )  eps =   5.6507  sigma =  0.000  frozen = False
+Node  36 (honest  )  eps =   5.6889  sigma =  0.000  frozen = False
+Node  37 (honest  )  eps =   5.7195  sigma =  0.000  frozen = False
+Node  38 (honest  )  eps =   5.7489  sigma =  0.000  frozen = False
+Node  39 (honest  )  eps =   6.6297  sigma =  0.000  frozen = False
+Node  40 (honest  )  eps =   6.5223  sigma =  0.000  frozen = False
+Node  41 (honest  )  eps =   7.1156  sigma =  0.000  frozen = False
+Node  42 (honest  )  eps =   6.3612  sigma =  0.000  frozen = False
+Node  43 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node  44 (honest  )  eps =   7.0519  sigma =  0.000  frozen = False
+Node  45 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node  46 (honest  )  eps =   5.7245  sigma =  0.000  frozen = False
+Node  47 (honest  )  eps =   6.3455  sigma =  0.000  frozen = False
+Node  48 (honest  )  eps =   5.8862  sigma =  0.000  frozen = False
+Node  49 (honest  )  eps =   7.5216  sigma =  0.000  frozen = False
+Node  50 (honest  )  eps =   6.2263  sigma =  0.000  frozen = False
+Node  51 (honest  )  eps =   5.9789  sigma =  0.000  frozen = False
+Node  52 (honest  )  eps =   6.5757  sigma =  0.000  frozen = False
+Node  53 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node  54 (honest  )  eps =   5.8108  sigma =  0.000  frozen = False
+Node  55 (honest  )  eps =   5.7474  sigma =  0.000  frozen = False
+Node  56 (honest  )  eps =   6.4083  sigma =  0.000  frozen = False
+Node  57 (honest  )  eps =   6.7053  sigma =  0.000  frozen = False
+Node  58 (honest  )  eps =   7.2149  sigma =  0.000  frozen = False
+Node  59 (honest  )  eps =   6.5770  sigma =  0.000  frozen = False
+Node  60 (honest  )  eps =   6.0799  sigma =  0.000  frozen = False
+Node  61 (honest  )  eps =   6.7200  sigma =  0.000  frozen = False
+Node  62 (honest  )  eps =   7.5930  sigma =  0.000  frozen = False
+Node  63 (honest  )  eps =   6.8012  sigma =  0.000  frozen = False
+Node  64 (honest  )  eps =   6.6013  sigma =  0.600  frozen = False
+Node  65 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node  66 (honest  )  eps =   6.6662  sigma =  0.000  frozen = False
+Node  67 (honest  )  eps =   6.1074  sigma =  0.000  frozen = False
+Node  68 (honest  )  eps =   7.3624  sigma =  0.000  frozen = False
+Node  69 (honest  )  eps =   6.1223  sigma =  0.000  frozen = False
+Node  70 (honest  )  eps =   6.5737  sigma =  0.600  frozen = False
+Node  71 (honest  )  eps =   6.5922  sigma =  0.000  frozen = False
+Node  72 (honest  )  eps =   5.9054  sigma =  0.000  frozen = False
+Node  73 (honest  )  eps =   7.3673  sigma =  0.000  frozen = False
+Node  74 (honest  )  eps =   5.7330  sigma =  0.000  frozen = False
+Node  75 (honest  )  eps =   7.1596  sigma =  0.000  frozen = False
+Node  76 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node  77 (honest  )  eps =   6.1561  sigma =  0.000  frozen = False
+Node  78 (honest  )  eps =   6.4992  sigma =  0.000  frozen = False
+Node  79 (honest  )  eps =   7.3663  sigma =  0.600  frozen = False
+Node  80 (honest  )  eps =   5.2680  sigma =  0.000  frozen = False
+Node  81 (honest  )  eps =   7.4568  sigma =  0.000  frozen = False
+Node  82 (honest  )  eps =   5.7118  sigma =  0.000  frozen = False
+Node  83 (honest  )  eps =   6.9226  sigma =  0.000  frozen = False
+Node  84 (honest  )  eps =   7.3224  sigma =  0.000  frozen = False
+Node  85 (honest  )  eps =   5.7865  sigma =  0.000  frozen = False
+Node  86 (honest  )  eps =   6.4520  sigma =  0.000  frozen = False
+Node  87 (honest  )  eps =   5.6793  sigma =  0.000  frozen = False
+Node  88 (honest  )  eps =   6.5306  sigma =  0.000  frozen = False
+Node  89 (honest  )  eps =   6.6630  sigma =  0.000  frozen = False
+Node  90 (honest  )  eps =   5.3795  sigma =  0.000  frozen = False
+Node  91 (honest  )  eps =   5.7953  sigma =  0.000  frozen = False
+Node  92 (honest  )  eps =   2.7698  sigma =  0.000  frozen = False
+Node  93 (honest  )  eps =   7.3024  sigma =  0.600  frozen = False
+Node  94 (honest  )  eps =   6.1362  sigma =  0.000  frozen = False
+Node  95 (honest  )  eps =   5.3326  sigma =  0.000  frozen = False
+Node  96 (honest  )  eps =   5.3504  sigma =  0.000  frozen = False
+Node  97 (honest  )  eps =   5.8411  sigma =  0.000  frozen = False
+Node  98 (honest  )  eps =   7.4376  sigma =  0.000  frozen = False
+Node  99 (honest  )  eps =   5.6879  sigma =  0.000  frozen = False
+Node 100 (honest  )  eps =   6.6004  sigma =  0.000  frozen = False
+Node 101 (honest  )  eps =   5.6913  sigma =  0.000  frozen = False
+Node 102 (honest  )  eps =   6.9757  sigma =  0.000  frozen = False
+Node 103 (honest  )  eps =   6.5073  sigma =  0.000  frozen = False
+Node 104 (honest  )  eps =   5.3056  sigma =  0.000  frozen = False
+Node 105 (honest  )  eps =   6.9743  sigma =  0.000  frozen = False
+Node 106 (honest  )  eps =   7.3983  sigma =  0.000  frozen = False
+Node 107 (honest  )  eps =   5.8679  sigma =  0.000  frozen = False
+Node 108 (honest  )  eps =   7.6375  sigma =  0.000  frozen = False
+Node 109 (honest  )  eps =   5.9432  sigma =  0.000  frozen = False
+Node 110 (honest  )  eps =   6.5449  sigma =  0.000  frozen = False
+Node 111 (honest  )  eps =   7.1892  sigma =  0.000  frozen = False
+Node 112 (honest  )  eps =   7.4687  sigma =  0.000  frozen = False
+Node 113 (honest  )  eps =   7.4886  sigma =  0.000  frozen = False
+Node 114 (honest  )  eps =   7.3372  sigma =  0.600  frozen = False
+Node 115 (honest  )  eps =   7.0196  sigma =  0.000  frozen = False
+Node 116 (honest  )  eps =   5.3153  sigma =  0.000  frozen = False
+Node 117 (honest  )  eps =   6.8521  sigma =  0.000  frozen = False
+Node 118 (honest  )  eps =   8.0785  sigma =  0.600  frozen = False
+Node 119 (honest  )  eps =   6.5641  sigma =  0.600  frozen = False
+Node 120 (honest  )  eps =   6.5048  sigma =  0.000  frozen = False
+Node 121 (honest  )  eps =   6.0927  sigma =  0.000  frozen = False
+Node 122 (honest  )  eps =   6.1930  sigma =  0.000  frozen = False
+Node 123 (honest  )  eps =   6.5651  sigma =  0.000  frozen = False
+Node 124 (honest  )  eps =   6.2265  sigma =  0.000  frozen = False
+Node 125 (honest  )  eps =   0.0000  sigma =  0.000  frozen = False
+Node 126 (honest  )  eps =   7.2103  sigma =  0.000  frozen = False
+Node 127 (honest  )  eps =   5.8472  sigma =  0.000  frozen = False
+Node 128 (honest  )  eps =   6.3981  sigma =  0.000  frozen = False
+Node 129 (honest  )  eps =   7.6192  sigma =  0.600  frozen = False
+Node 130 (honest  )  eps =   7.4246  sigma =  0.000  frozen = False
+Node 131 (honest  )  eps =   6.1025  sigma =  0.000  frozen = False
+Node 132 (honest  )  eps =   6.1172  sigma =  0.000  frozen = False
+Node 133 (honest  )  eps =   7.1695  sigma =  0.000  frozen = False
+Node 134 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 135 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 136 (honest  )  eps =   4.0155  sigma =  0.000  frozen = False
+Node 137 (honest  )  eps =   6.8727  sigma =  0.600  frozen = False
+Node 138 (honest  )  eps =   6.5098  sigma =  0.000  frozen = False
+Node 139 (honest  )  eps =   6.3132  sigma =  0.000  frozen = False
+Node 140 (honest  )  eps =   7.4437  sigma =  0.000  frozen = False
+Node 141 (honest  )  eps =   6.6269  sigma =  0.600  frozen = False
+Node 142 (honest  )  eps =   5.5618  sigma =  0.000  frozen = False
+Node 143 (honest  )  eps =   5.8839  sigma =  0.000  frozen = False
+Node 144 (honest  )  eps =   7.3854  sigma =  0.000  frozen = False
+Node 145 (honest  )  eps =   6.4650  sigma =  0.000  frozen = False
+Node 146 (honest  )  eps =   7.7656  sigma =  0.000  frozen = False
+Node 147 (honest  )  eps =   6.5650  sigma =  0.000  frozen = False
+Node 148 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 149 (honest  )  eps =   5.6963  sigma =  0.000  frozen = False
+Node 150 (honest  )  eps =   6.2963  sigma =  0.000  frozen = False
+Node 151 (honest  )  eps =   5.6764  sigma =  0.000  frozen = False
+Node 152 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 153 (honest  )  eps =   7.4564  sigma =  0.000  frozen = False
+Node 154 (honest  )  eps =   6.1498  sigma =  0.000  frozen = False
+Node 155 (honest  )  eps =   6.0812  sigma =  0.000  frozen = False
+Node 156 (honest  )  eps =   6.3936  sigma =  0.000  frozen = False
+Node 157 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 158 (honest  )  eps =   7.4038  sigma =  0.000  frozen = False
+Node 159 (honest  )  eps =   5.2354  sigma =  0.000  frozen = False
+Node 160 (honest  )  eps =   6.6004  sigma =  0.000  frozen = False
+Node 161 (honest  )  eps =   5.3555  sigma =  0.000  frozen = False
+Node 162 (honest  )  eps =   6.0727  sigma =  0.000  frozen = False
+Node 163 (honest  )  eps =   7.4302  sigma =  0.000  frozen = False
+Node 164 (honest  )  eps =   6.1933  sigma =  0.000  frozen = False
+Node 165 (honest  )  eps =   2.0316  sigma =  0.000  frozen = False
+Node 166 (honest  )  eps =   6.1549  sigma =  0.000  frozen = False
+Node 167 (honest  )  eps =   6.1637  sigma =  0.000  frozen = False
+Node 168 (honest  )  eps =   6.5874  sigma =  0.000  frozen = False
+Node 169 (honest  )  eps =   7.1345  sigma =  0.000  frozen = False
+Node 170 (honest  )  eps =   5.3159  sigma =  0.600  frozen = False
+Node 171 (honest  )  eps =   6.1246  sigma =  0.000  frozen = False
+Node 172 (honest  )  eps =   7.4931  sigma =  0.000  frozen = False
+Node 173 (honest  )  eps =   5.9125  sigma =  0.000  frozen = False
+Node 174 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 175 (honest  )  eps =   7.0488  sigma =  0.000  frozen = False
+Node 176 (honest  )  eps =   6.6806  sigma =  0.000  frozen = False
+Node 177 (honest  )  eps =   6.7506  sigma =  0.600  frozen = False
+Node 178 (honest  )  eps =   6.1313  sigma =  0.000  frozen = False
+Node 179 (honest  )  eps =   6.2618  sigma =  0.000  frozen = False
+Node 180 (honest  )  eps =   7.4575  sigma =  0.000  frozen = False
+Node 181 (honest  )  eps =   7.4296  sigma =  0.600  frozen = False
+Node 182 (honest  )  eps =   6.2176  sigma =  0.000  frozen = False
+Node 183 (honest  )  eps =   2.9167  sigma =  0.000  frozen = False
+Node 184 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 185 (honest  )  eps =   6.5027  sigma =  0.000  frozen = False
+Node 186 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 187 (honest  )  eps =   5.8597  sigma =  0.000  frozen = False
+Node 188 (honest  )  eps =   5.3594  sigma =  0.000  frozen = False
+Node 189 (honest  )  eps =   6.2180  sigma =  0.000  frozen = False
+Node 190 (honest  )  eps =   5.7552  sigma =  0.000  frozen = False
+Node 191 (honest  )  eps =   6.8115  sigma =  0.000  frozen = False
+Node 192 (honest  )  eps =   5.7676  sigma =  0.000  frozen = False
+Node 193 (honest  )  eps =   6.8908  sigma =  0.000  frozen = False
+Node 194 (honest  )  eps =   6.5494  sigma =  0.000  frozen = False
+Node 195 (honest  )  eps =   5.6731  sigma =  0.000  frozen = False
+Node 196 (honest  )  eps =   6.9242  sigma =  0.000  frozen = False
+Node 197 (honest  )  eps =   6.5959  sigma =  0.000  frozen = False
+Node 198 (honest  )  eps =   5.6411  sigma =  0.000  frozen = False
+Node 199 (honest  )  eps =   6.1627  sigma =  0.000  frozen = False
+Node 200 (honest  )  eps =   7.5731  sigma =  0.000  frozen = False
+Node 201 (honest  )  eps =   7.5889  sigma =  0.000  frozen = False
+Node 202 (honest  )  eps =   7.7979  sigma =  0.600  frozen = False
+Node 203 (honest  )  eps =   7.3299  sigma =  0.000  frozen = False
+Node 204 (honest  )  eps =   5.6867  sigma =  0.000  frozen = False
+Node 205 (honest  )  eps =   7.1071  sigma =  0.000  frozen = False
+Node 206 (honest  )  eps =   6.5187  sigma =  0.000  frozen = False
+Node 207 (honest  )  eps =   4.8464  sigma =  0.000  frozen = False
+Node 208 (honest  )  eps =   7.2125  sigma =  0.000  frozen = False
+Node 209 (honest  )  eps =   6.9801  sigma =  0.000  frozen = False
+Node 210 (honest  )  eps =   6.5854  sigma =  0.000  frozen = False
+Node 211 (honest  )  eps =   6.4805  sigma =  0.600  frozen = False
+Node 212 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 213 (honest  )  eps =   6.5874  sigma =  0.000  frozen = False
+Node 214 (honest  )  eps =   6.3923  sigma =  0.000  frozen = False
+Node 215 (honest  )  eps =   6.5496  sigma =  0.000  frozen = False
+Node 216 (honest  )  eps =   5.8131  sigma =  0.000  frozen = False
+Node 217 (honest  )  eps =   6.6573  sigma =  0.000  frozen = False
+Node 218 (honest  )  eps =   7.3717  sigma =  0.000  frozen = False
+Node 219 (honest  )  eps =   6.1198  sigma =  0.000  frozen = False
+Node 220 (honest  )  eps =   7.1793  sigma =  0.000  frozen = False
+Node 221 (honest  )  eps =   7.3473  sigma =  0.000  frozen = False
+Node 222 (honest  )  eps =   7.3451  sigma =  0.000  frozen = False
+Node 223 (honest  )  eps =   7.2033  sigma =  0.000  frozen = False
+Node 224 (honest  )  eps =   6.9730  sigma =  0.000  frozen = False
+Node 225 (honest  )  eps =   7.6735  sigma =  0.000  frozen = False
+Node 226 (honest  )  eps =   7.1919  sigma =  0.000  frozen = False
+Node 227 (honest  )  eps =   5.9993  sigma =  0.000  frozen = False
+Node 228 (honest  )  eps =   5.6979  sigma =  0.000  frozen = False
+Node 229 (honest  )  eps =   7.7816  sigma =  0.000  frozen = False
+Node 230 (honest  )  eps =   7.0767  sigma =  0.000  frozen = False
+Node 231 (honest  )  eps =   5.7271  sigma =  0.000  frozen = False
+Node 232 (honest  )  eps =   6.3395  sigma =  0.000  frozen = False
+Node 233 (honest  )  eps =   7.4187  sigma =  0.000  frozen = False
+Node 234 (honest  )  eps =   6.8790  sigma =  0.000  frozen = False
+Node 235 (honest  )  eps =   6.3178  sigma =  0.000  frozen = False
+Node 236 (honest  )  eps =   6.9242  sigma =  0.000  frozen = False
+Node 237 (honest  )  eps =   5.6557  sigma =  0.000  frozen = False
+Node 238 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 239 (honest  )  eps =   5.6984  sigma =  0.000  frozen = False
+Node 240 (honest  )  eps =   6.9401  sigma =  0.000  frozen = False
+Node 241 (honest  )  eps =   6.5433  sigma =  0.000  frozen = False
+Node 242 (honest  )  eps =   5.8570  sigma =  0.000  frozen = False
+Node 243 (honest  )  eps =   5.5766  sigma =  0.000  frozen = False
+Node 244 (honest  )  eps =   5.7216  sigma =  0.000  frozen = False
+Node 245 (honest  )  eps =   7.6321  sigma =  0.000  frozen = False
+Node 246 (honest  )  eps =   6.6514  sigma =  0.000  frozen = False
+Node 247 (honest  )  eps =   5.9929  sigma =  0.000  frozen = False
+Node 248 (honest  )  eps =   5.8259  sigma =  0.000  frozen = False
+Node 249 (honest  )  eps =   6.5020  sigma =  0.000  frozen = False
+Node 250 (honest  )  eps =   5.8928  sigma =  0.000  frozen = False
+Node 251 (honest  )  eps =   7.4204  sigma =  0.000  frozen = False
+Node 252 (honest  )  eps =   6.5983  sigma =  0.000  frozen = False
+Node 253 (honest  )  eps =   5.6641  sigma =  0.000  frozen = False
+Node 254 (honest  )  eps =   5.6598  sigma =  0.000  frozen = False
+Node 255 (honest  )  eps =   5.6411  sigma =  0.000  frozen = False
+Node 256 (honest  )  eps =   5.6963  sigma =  0.000  frozen = False
+Node 257 (honest  )  eps =   5.4616  sigma =  0.600  frozen = False
+Node 258 (honest  )  eps =   6.1078  sigma =  0.000  frozen = False
+Node 259 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 260 (honest  )  eps =   6.9036  sigma =  0.000  frozen = False
+Node 261 (honest  )  eps =   6.8126  sigma =  0.000  frozen = False
+Node 262 (honest  )  eps =   6.1169  sigma =  0.000  frozen = False
+Node 263 (honest  )  eps =   5.3041  sigma =  0.000  frozen = False
+Node 264 (honest  )  eps =   7.8176  sigma =  0.000  frozen = False
+Node 265 (honest  )  eps =   6.9176  sigma =  0.000  frozen = False
+Node 266 (honest  )  eps =   7.8091  sigma =  0.000  frozen = False
+Node 267 (honest  )  eps =   6.5286  sigma =  0.000  frozen = False
+Node 268 (honest  )  eps =   6.7400  sigma =  0.000  frozen = False
+Node 269 (honest  )  eps =   5.7232  sigma =  0.000  frozen = False
+Node 270 (honest  )  eps =   6.6639  sigma =  0.000  frozen = False
+Node 271 (honest  )  eps =   6.2344  sigma =  0.000  frozen = False
+Node 272 (honest  )  eps =   7.7574  sigma =  0.000  frozen = False
+Node 273 (honest  )  eps =   0.0000  sigma =  0.000  frozen = False
+Node 274 (honest  )  eps =   6.1160  sigma =  0.000  frozen = False
+Node 275 (honest  )  eps =   5.7459  sigma =  0.000  frozen = False
+Node 276 (honest  )  eps =   7.4152  sigma =  0.000  frozen = False
+Node 277 (honest  )  eps =   7.6666  sigma =  0.000  frozen = False
+Node 278 (honest  )  eps =   5.2968  sigma =  0.000  frozen = False
+Node 279 (honest  )  eps =   6.2363  sigma =  0.000  frozen = False
+Node 280 (honest  )  eps =   7.4347  sigma =  0.000  frozen = False
+Node 281 (honest  )  eps =   6.6801  sigma =  0.000  frozen = False
+Node 282 (honest  )  eps =   6.0826  sigma =  0.000  frozen = False
+Node 283 (honest  )  eps =   7.0531  sigma =  0.000  frozen = False
+Node 284 (honest  )  eps =   7.3667  sigma =  0.000  frozen = False
+Node 285 (honest  )  eps =   5.6575  sigma =  0.000  frozen = False
+Node 286 (honest  )  eps =   7.5120  sigma =  0.000  frozen = False
+Node 287 (honest  )  eps =   6.3981  sigma =  0.000  frozen = False
+Node 288 (honest  )  eps =   7.3563  sigma =  0.000  frozen = False
+Node 289 (honest  )  eps =   6.5985  sigma =  0.000  frozen = False
+Node 290 (honest  )  eps =   6.9587  sigma =  0.000  frozen = False
+Node 291 (honest  )  eps =   6.8714  sigma =  0.000  frozen = False
+Node 292 (honest  )  eps =   6.9361  sigma =  0.000  frozen = False
+Node 293 (honest  )  eps =   5.3918  sigma =  0.000  frozen = False
+Node 294 (honest  )  eps =   7.4142  sigma =  0.000  frozen = False
+Node 295 (honest  )  eps =   6.5718  sigma =  0.000  frozen = False
+Node 296 (honest  )  eps =   6.5360  sigma =  0.000  frozen = False
+Node 297 (honest  )  eps =   6.3896  sigma =  0.000  frozen = False
+Node 298 (honest  )  eps =   6.9400  sigma =  0.000  frozen = False
+Node 299 (honest  )  eps =   7.5249  sigma =  0.000  frozen = False
+Node 300 (honest  )  eps =   5.6779  sigma =  0.000  frozen = False
+Node 301 (honest  )  eps =   7.4184  sigma =  0.000  frozen = False
+Node 302 (honest  )  eps =   6.1551  sigma =  0.000  frozen = False
+Node 303 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 304 (honest  )  eps =   6.0014  sigma =  0.000  frozen = False
+Node 305 (honest  )  eps =   5.2793  sigma =  0.000  frozen = False
+Node 306 (honest  )  eps =   7.1338  sigma =  0.000  frozen = False
+Node 307 (honest  )  eps =   5.7022  sigma =  0.000  frozen = False
+Node 308 (honest  )  eps =   5.1396  sigma =  0.000  frozen = False
+Node 309 (honest  )  eps =   7.6294  sigma =  0.000  frozen = False
+Node 310 (honest  )  eps =   5.9581  sigma =  0.000  frozen = False
+Node 311 (honest  )  eps =   6.1598  sigma =  0.000  frozen = False
+Node 312 (honest  )  eps =   6.0935  sigma =  0.000  frozen = False
+Node 313 (honest  )  eps =   6.7772  sigma =  0.000  frozen = False
+Node 314 (honest  )  eps =   6.2014  sigma =  0.000  frozen = False
+Node 315 (honest  )  eps =   7.4870  sigma =  0.000  frozen = False
+Node 316 (honest  )  eps =   7.3561  sigma =  0.000  frozen = False
+Node 317 (honest  )  eps =   7.3735  sigma =  0.000  frozen = False
+Node 318 (honest  )  eps =   7.0126  sigma =  0.000  frozen = False
+Node 319 (honest  )  eps =   6.3004  sigma =  0.600  frozen = False
+Node 320 (honest  )  eps =   6.4085  sigma =  0.000  frozen = False
+Node 321 (honest  )  eps =   7.4362  sigma =  0.000  frozen = False
+Node 322 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 323 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 324 (honest  )  eps =   7.3820  sigma =  0.000  frozen = False
+Node 325 (honest  )  eps =   5.9743  sigma =  0.000  frozen = False
+Node 326 (honest  )  eps =   5.8877  sigma =  0.000  frozen = False
+Node 327 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 328 (honest  )  eps =   7.3571  sigma =  0.600  frozen = False
+Node 329 (honest  )  eps =   6.7384  sigma =  0.000  frozen = False
+Node 330 (honest  )  eps =   6.3092  sigma =  0.000  frozen = False
+Node 331 (honest  )  eps =   2.7261  sigma =  0.000  frozen = False
+Node 332 (honest  )  eps =   6.0907  sigma =  0.600  frozen = False
+Node 333 (honest  )  eps =   6.1736  sigma =  0.000  frozen = False
+Node 334 (honest  )  eps =   6.5347  sigma =  0.000  frozen = False
+Node 335 (honest  )  eps =   5.7406  sigma =  0.000  frozen = False
+Node 336 (honest  )  eps =   6.8610  sigma =  0.000  frozen = False
+Node 337 (honest  )  eps =   5.8412  sigma =  0.000  frozen = False
+Node 338 (honest  )  eps =   7.5326  sigma =  0.000  frozen = False
+Node 339 (honest  )  eps =   6.2987  sigma =  0.000  frozen = False
+Node 340 (honest  )  eps =   6.1751  sigma =  0.000  frozen = False
+Node 341 (honest  )  eps =   7.5085  sigma =  0.600  frozen = False
+Node 342 (honest  )  eps =   5.2876  sigma =  0.000  frozen = False
+Node 343 (honest  )  eps =   6.0817  sigma =  0.000  frozen = False
+Node 344 (honest  )  eps =   7.0734  sigma =  0.600  frozen = False
+Node 345 (honest  )  eps =   6.4589  sigma =  0.000  frozen = False
+Node 346 (honest  )  eps =   7.1930  sigma =  0.000  frozen = False
+Node 347 (honest  )  eps =   6.1879  sigma =  0.000  frozen = False
+Node 348 (honest  )  eps =   7.1502  sigma =  0.000  frozen = False
+Node 349 (honest  )  eps =   6.2266  sigma =  0.000  frozen = False
+Node 350 (honest  )  eps =   6.5180  sigma =  0.000  frozen = False
+Node 351 (honest  )  eps =   7.2503  sigma =  0.000  frozen = False
+Node 352 (honest  )  eps =   6.7524  sigma =  0.000  frozen = False
+Node 353 (honest  )  eps =   7.5328  sigma =  0.000  frozen = False
+Node 354 (honest  )  eps =   7.4543  sigma =  0.000  frozen = False
+Node 355 (honest  )  eps =   7.3464  sigma =  0.000  frozen = False
+Node 356 (honest  )  eps =   6.1851  sigma =  0.000  frozen = False
+Node 357 (honest  )  eps =   7.4246  sigma =  0.600  frozen = False
+Node 358 (honest  )  eps =   6.0743  sigma =  0.000  frozen = False
+Node 359 (honest  )  eps =   7.3417  sigma =  0.000  frozen = False
+Node 360 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 361 (honest  )  eps =   7.6553  sigma =  0.600  frozen = False
+Node 362 (honest  )  eps =   7.4246  sigma =  0.000  frozen = False
+Node 363 (honest  )  eps =   5.6724  sigma =  0.000  frozen = False
+Node 364 (honest  )  eps =   7.4039  sigma =  0.000  frozen = False
+Node 365 (honest  )  eps =   7.4405  sigma =  0.000  frozen = False
+Node 366 (honest  )  eps =   6.5573  sigma =  0.000  frozen = False
+Node 367 (honest  )  eps =   6.5021  sigma =  0.000  frozen = False
+Node 368 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 369 (honest  )  eps =   7.1771  sigma =  0.000  frozen = False
+Node 370 (honest  )  eps =   6.2008  sigma =  0.000  frozen = False
+Node 371 (honest  )  eps =   6.6939  sigma =  0.000  frozen = False
+Node 372 (honest  )  eps =   7.3620  sigma =  0.000  frozen = False
+Node 373 (honest  )  eps =   6.2252  sigma =  0.000  frozen = False
+Node 374 (honest  )  eps =   6.5361  sigma =  0.000  frozen = False
+Node 375 (honest  )  eps =   7.1700  sigma =  0.000  frozen = False
+Node 376 (honest  )  eps =   7.3015  sigma =  0.000  frozen = False
+Node 377 (honest  )  eps =   7.5314  sigma =  0.600  frozen = False
+Node 378 (honest  )  eps =   6.7041  sigma =  0.000  frozen = False
+Node 379 (honest  )  eps =   5.9275  sigma =  0.000  frozen = False
+Node 380 (honest  )  eps =   7.2456  sigma =  0.600  frozen = False
+Node 381 (honest  )  eps =   7.2911  sigma =  0.600  frozen = False
+Node 382 (honest  )  eps =   5.9832  sigma =  0.000  frozen = False
+Node 383 (honest  )  eps =   6.2389  sigma =  0.000  frozen = False
+Node 384 (honest  )  eps =   6.9678  sigma =  0.600  frozen = False
+Node 385 (honest  )  eps =   6.5010  sigma =  0.000  frozen = False
+Node 386 (honest  )  eps =   6.7307  sigma =  0.600  frozen = False
+Node 387 (honest  )  eps =   5.2878  sigma =  0.000  frozen = False
+Node 388 (honest  )  eps =   7.5350  sigma =  0.000  frozen = False
+Node 389 (honest  )  eps =   6.6682  sigma =  0.000  frozen = False
+Node 390 (honest  )  eps =   6.1254  sigma =  0.000  frozen = False
+Node 391 (honest  )  eps =   7.3351  sigma =  0.000  frozen = False
+Node 392 (honest  )  eps =   6.2226  sigma =  0.000  frozen = False
+Node 393 (honest  )  eps =   6.6560  sigma =  0.000  frozen = False
+Node 394 (honest  )  eps =   6.8226  sigma =  0.000  frozen = False
+Node 395 (honest  )  eps =   6.1681  sigma =  0.000  frozen = False
+Node 396 (honest  )  eps =   6.8351  sigma =  0.000  frozen = False
+Node 397 (honest  )  eps =   7.3565  sigma =  0.000  frozen = False
+Node 398 (honest  )  eps =   6.5482  sigma =  0.000  frozen = False
+Node 399 (honest  )  eps =   5.4467  sigma =  0.000  frozen = False
+Node 400 (honest  )  eps =   6.6622  sigma =  0.000  frozen = False
+Node 401 (honest  )  eps =   7.1003  sigma =  0.000  frozen = False
+Node 402 (honest  )  eps =   5.7490  sigma =  0.000  frozen = False
+Node 403 (honest  )  eps =   6.6807  sigma =  0.000  frozen = False
+Node 404 (honest  )  eps =   6.6288  sigma =  0.000  frozen = False
+Node 405 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 406 (honest  )  eps =   6.6163  sigma =  0.600  frozen = False
+Node 407 (honest  )  eps =   4.3614  sigma =  0.000  frozen = False
+Node 408 (honest  )  eps =   7.5791  sigma =  0.000  frozen = False
+Node 409 (honest  )  eps =   6.5132  sigma =  0.000  frozen = False
+Node 410 (honest  )  eps =   6.1195  sigma =  0.000  frozen = False
+Node 411 (honest  )  eps =   6.0989  sigma =  0.000  frozen = False
+Node 412 (honest  )  eps =   6.7855  sigma =  0.000  frozen = False
+Node 413 (honest  )  eps =   7.0205  sigma =  0.000  frozen = False
+Node 414 (honest  )  eps =   6.0976  sigma =  0.600  frozen = False
+Node 415 (honest  )  eps =   6.1161  sigma =  0.000  frozen = False
+Node 416 (honest  )  eps =   6.4033  sigma =  0.000  frozen = False
+Node 417 (honest  )  eps =   6.0972  sigma =  0.000  frozen = False
+Node 418 (honest  )  eps =   6.5466  sigma =  0.000  frozen = False
+Node 419 (honest  )  eps =   6.1025  sigma =  0.000  frozen = False
+Node 420 (honest  )  eps =   6.5419  sigma =  0.000  frozen = False
+Node 421 (honest  )  eps =   7.3776  sigma =  0.000  frozen = False
+Node 422 (honest  )  eps =   6.8825  sigma =  0.000  frozen = False
+Node 423 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 424 (honest  )  eps =   6.4998  sigma =  0.000  frozen = False
+Node 425 (honest  )  eps =   7.3396  sigma =  0.000  frozen = False
+Node 426 (honest  )  eps =   6.1670  sigma =  0.000  frozen = False
+Node 427 (honest  )  eps =   6.6161  sigma =  0.000  frozen = False
+Node 428 (honest  )  eps =   5.6689  sigma =  0.000  frozen = False
+Node 429 (honest  )  eps =   7.3448  sigma =  0.000  frozen = False
+Node 430 (honest  )  eps =   5.6853  sigma =  0.000  frozen = False
+Node 431 (honest  )  eps =   5.3572  sigma =  0.000  frozen = False
+Node 432 (honest  )  eps =   6.9233  sigma =  0.000  frozen = False
+Node 433 (honest  )  eps =   6.1670  sigma =  0.000  frozen = False
+Node 434 (honest  )  eps =   7.0892  sigma =  0.000  frozen = False
+Node 435 (honest  )  eps =   7.1043  sigma =  0.000  frozen = False
+Node 436 (honest  )  eps =   5.7191  sigma =  0.000  frozen = False
+Node 437 (honest  )  eps =   5.9832  sigma =  0.000  frozen = False
+Node 438 (honest  )  eps =   6.6966  sigma =  0.000  frozen = False
+Node 439 (honest  )  eps =   6.7275  sigma =  0.000  frozen = False
+Node 440 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 441 (honest  )  eps =   6.0320  sigma =  0.000  frozen = False
+Node 442 (honest  )  eps =   6.0089  sigma =  0.000  frozen = False
+Node 443 (honest  )  eps =   6.1900  sigma =  0.000  frozen = False
+Node 444 (honest  )  eps =   6.0845  sigma =  0.000  frozen = False
+Node 445 (honest  )  eps =   6.8940  sigma =  0.000  frozen = False
+Node 446 (honest  )  eps =   6.6004  sigma =  0.000  frozen = False
+Node 447 (honest  )  eps =   6.5130  sigma =  0.000  frozen = False
+Node 448 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 449 (honest  )  eps =   7.4061  sigma =  0.000  frozen = False
+Node 450 (honest  )  eps =   7.3199  sigma =  0.600  frozen = False
+Node 451 (honest  )  eps =   7.1059  sigma =  0.000  frozen = False
+Node 452 (honest  )  eps =   7.3129  sigma =  0.600  frozen = False
+Node 453 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 454 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 455 (honest  )  eps =   7.0814  sigma =  0.000  frozen = False
+Node 456 (honest  )  eps =   6.3786  sigma =  0.000  frozen = False
+Node 457 (honest  )  eps =   6.5222  sigma =  0.000  frozen = False
+Node 458 (honest  )  eps =   7.1807  sigma =  0.000  frozen = False
+Node 459 (honest  )  eps =   6.1895  sigma =  0.000  frozen = False
+Node 460 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 461 (honest  )  eps =   7.0679  sigma =  0.000  frozen = False
+Node 462 (honest  )  eps =   7.3593  sigma =  0.000  frozen = False
+Node 463 (honest  )  eps =   7.2955  sigma =  0.000  frozen = False
+Node 464 (honest  )  eps =   6.7285  sigma =  0.000  frozen = False
+Node 465 (honest  )  eps =   7.6025  sigma =  0.000  frozen = False
+Node 466 (honest  )  eps =   6.2142  sigma =  0.600  frozen = False
+Node 467 (honest  )  eps =   7.4848  sigma =  0.000  frozen = False
+Node 468 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 469 (honest  )  eps =   6.6612  sigma =  0.000  frozen = False
+Node 470 (honest  )  eps =   5.8283  sigma =  0.000  frozen = False
+Node 471 (honest  )  eps =   5.9955  sigma =  0.000  frozen = False
+Node 472 (honest  )  eps =   6.5325  sigma =  0.000  frozen = False
+Node 473 (honest  )  eps =   6.9656  sigma =  0.000  frozen = False
+Node 474 (honest  )  eps =   6.5692  sigma =  0.000  frozen = False
+Node 475 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 476 (honest  )  eps =   6.6894  sigma =  0.000  frozen = False
+Node 477 (honest  )  eps =   7.3438  sigma =  0.000  frozen = False
+Node 478 (honest  )  eps =   6.4384  sigma =  0.000  frozen = False
+Node 479 (honest  )  eps =   6.5591  sigma =  0.000  frozen = False
+Node 480 (honest  )  eps =   5.6411  sigma =  0.000  frozen = False
+Node 481 (honest  )  eps =   3.7549  sigma =  0.000  frozen = False
+Node 482 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 483 (honest  )  eps =   5.2876  sigma =  0.000  frozen = False
+Node 484 (honest  )  eps =   6.3574  sigma =  0.000  frozen = False
+Node 485 (honest  )  eps =   6.9002  sigma =  0.600  frozen = False
+Node 486 (honest  )  eps =   6.1816  sigma =  0.000  frozen = False
+Node 487 (honest  )  eps =   6.9547  sigma =  0.000  frozen = False
+Node 488 (honest  )  eps =   7.3687  sigma =  0.000  frozen = False
+Node 489 (honest  )  eps =   6.5806  sigma =  0.000  frozen = False
+Node 490 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 491 (honest  )  eps =   5.6951  sigma =  0.000  frozen = False
+Node 492 (honest  )  eps =   7.6591  sigma =  0.600  frozen = False
+Node 493 (honest  )  eps =   7.1167  sigma =  0.000  frozen = False
+Node 494 (honest  )  eps =   5.6677  sigma =  0.000  frozen = False
+Node 495 (honest  )  eps =   7.0045  sigma =  0.000  frozen = False
+Node 496 (honest  )  eps =   5.8810  sigma =  0.000  frozen = False
+Node 497 (honest  )  eps =   6.5747  sigma =  0.000  frozen = False
+Node 498 (honest  )  eps =   6.6711  sigma =  0.000  frozen = False
+Node 499 (honest  )  eps =   6.6468  sigma =  0.000  frozen = False
+------------------------------------------------------------
+eps_system (max honest): 8.0785
+eps_avg (honest):        6.4736
+eps_std (honest):        0.8660
+n_frozen:                0/500
+============================================================
