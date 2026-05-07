@@ -1,0 +1,524 @@
+============================================================
+REPORT: DP-SGD Decentralized Federated Learning
+============================================================
+Timestamp:                  20260504_182642
+Rounds completed:           150
+Attack-active rounds:       100  (from round 50)
+Final accuracy:             0.8770
+Final test loss:            0.4404
+Final epsilon (max honest): 7.87
+Final epsilon (avg honest): 6.46
+Best alpha:                 1000.0
+Avg precision:              0.9800
+Avg recall:                 0.9983
+Avg F1 score:               0.9890
+Avg update norm (honest):   1.4457
+Avg update norm (attacker): nan
+
+=== PER-NODE PRIVACY COST (final round) ===
+Node   0 (attacker)  eps = —          sigma = —       (not tracked)
+Node   1 (attacker)  eps = —          sigma = —       (not tracked)
+Node   2 (attacker)  eps = —          sigma = —       (not tracked)
+Node   3 (attacker)  eps = —          sigma = —       (not tracked)
+Node   4 (attacker)  eps = —          sigma = —       (not tracked)
+Node   5 (attacker)  eps = —          sigma = —       (not tracked)
+Node   6 (attacker)  eps = —          sigma = —       (not tracked)
+Node   7 (attacker)  eps = —          sigma = —       (not tracked)
+Node   8 (attacker)  eps = —          sigma = —       (not tracked)
+Node   9 (attacker)  eps = —          sigma = —       (not tracked)
+Node  10 (attacker)  eps = —          sigma = —       (not tracked)
+Node  11 (attacker)  eps = —          sigma = —       (not tracked)
+Node  12 (attacker)  eps = —          sigma = —       (not tracked)
+Node  13 (attacker)  eps = —          sigma = —       (not tracked)
+Node  14 (attacker)  eps = —          sigma = —       (not tracked)
+Node  15 (attacker)  eps = —          sigma = —       (not tracked)
+Node  16 (attacker)  eps = —          sigma = —       (not tracked)
+Node  17 (attacker)  eps = —          sigma = —       (not tracked)
+Node  18 (attacker)  eps = —          sigma = —       (not tracked)
+Node  19 (attacker)  eps = —          sigma = —       (not tracked)
+Node  20 (attacker)  eps = —          sigma = —       (not tracked)
+Node  21 (attacker)  eps = —          sigma = —       (not tracked)
+Node  22 (attacker)  eps = —          sigma = —       (not tracked)
+Node  23 (attacker)  eps = —          sigma = —       (not tracked)
+Node  24 (attacker)  eps = —          sigma = —       (not tracked)
+Node  25 (attacker)  eps = —          sigma = —       (not tracked)
+Node  26 (attacker)  eps = —          sigma = —       (not tracked)
+Node  27 (attacker)  eps = —          sigma = —       (not tracked)
+Node  28 (attacker)  eps = —          sigma = —       (not tracked)
+Node  29 (attacker)  eps = —          sigma = —       (not tracked)
+Node  30 (attacker)  eps = —          sigma = —       (not tracked)
+Node  31 (attacker)  eps = —          sigma = —       (not tracked)
+Node  32 (attacker)  eps = —          sigma = —       (not tracked)
+Node  33 (attacker)  eps = —          sigma = —       (not tracked)
+Node  34 (attacker)  eps = —          sigma = —       (not tracked)
+Node  35 (attacker)  eps = —          sigma = —       (not tracked)
+Node  36 (attacker)  eps = —          sigma = —       (not tracked)
+Node  37 (attacker)  eps = —          sigma = —       (not tracked)
+Node  38 (attacker)  eps = —          sigma = —       (not tracked)
+Node  39 (attacker)  eps = —          sigma = —       (not tracked)
+Node  40 (attacker)  eps = —          sigma = —       (not tracked)
+Node  41 (attacker)  eps = —          sigma = —       (not tracked)
+Node  42 (attacker)  eps = —          sigma = —       (not tracked)
+Node  43 (attacker)  eps = —          sigma = —       (not tracked)
+Node  44 (attacker)  eps = —          sigma = —       (not tracked)
+Node  45 (attacker)  eps = —          sigma = —       (not tracked)
+Node  46 (attacker)  eps = —          sigma = —       (not tracked)
+Node  47 (attacker)  eps = —          sigma = —       (not tracked)
+Node  48 (attacker)  eps = —          sigma = —       (not tracked)
+Node  49 (attacker)  eps = —          sigma = —       (not tracked)
+Node  50 (attacker)  eps = —          sigma = —       (not tracked)
+Node  51 (attacker)  eps = —          sigma = —       (not tracked)
+Node  52 (attacker)  eps = —          sigma = —       (not tracked)
+Node  53 (attacker)  eps = —          sigma = —       (not tracked)
+Node  54 (attacker)  eps = —          sigma = —       (not tracked)
+Node  55 (attacker)  eps = —          sigma = —       (not tracked)
+Node  56 (attacker)  eps = —          sigma = —       (not tracked)
+Node  57 (attacker)  eps = —          sigma = —       (not tracked)
+Node  58 (attacker)  eps = —          sigma = —       (not tracked)
+Node  59 (attacker)  eps = —          sigma = —       (not tracked)
+Node  60 (attacker)  eps = —          sigma = —       (not tracked)
+Node  61 (attacker)  eps = —          sigma = —       (not tracked)
+Node  62 (attacker)  eps = —          sigma = —       (not tracked)
+Node  63 (attacker)  eps = —          sigma = —       (not tracked)
+Node  64 (attacker)  eps = —          sigma = —       (not tracked)
+Node  65 (attacker)  eps = —          sigma = —       (not tracked)
+Node  66 (attacker)  eps = —          sigma = —       (not tracked)
+Node  67 (attacker)  eps = —          sigma = —       (not tracked)
+Node  68 (attacker)  eps = —          sigma = —       (not tracked)
+Node  69 (attacker)  eps = —          sigma = —       (not tracked)
+Node  70 (attacker)  eps = —          sigma = —       (not tracked)
+Node  71 (attacker)  eps = —          sigma = —       (not tracked)
+Node  72 (attacker)  eps = —          sigma = —       (not tracked)
+Node  73 (attacker)  eps = —          sigma = —       (not tracked)
+Node  74 (attacker)  eps = —          sigma = —       (not tracked)
+Node  75 (attacker)  eps = —          sigma = —       (not tracked)
+Node  76 (attacker)  eps = —          sigma = —       (not tracked)
+Node  77 (attacker)  eps = —          sigma = —       (not tracked)
+Node  78 (attacker)  eps = —          sigma = —       (not tracked)
+Node  79 (attacker)  eps = —          sigma = —       (not tracked)
+Node  80 (attacker)  eps = —          sigma = —       (not tracked)
+Node  81 (attacker)  eps = —          sigma = —       (not tracked)
+Node  82 (attacker)  eps = —          sigma = —       (not tracked)
+Node  83 (attacker)  eps = —          sigma = —       (not tracked)
+Node  84 (attacker)  eps = —          sigma = —       (not tracked)
+Node  85 (attacker)  eps = —          sigma = —       (not tracked)
+Node  86 (attacker)  eps = —          sigma = —       (not tracked)
+Node  87 (attacker)  eps = —          sigma = —       (not tracked)
+Node  88 (attacker)  eps = —          sigma = —       (not tracked)
+Node  89 (attacker)  eps = —          sigma = —       (not tracked)
+Node  90 (attacker)  eps = —          sigma = —       (not tracked)
+Node  91 (attacker)  eps = —          sigma = —       (not tracked)
+Node  92 (attacker)  eps = —          sigma = —       (not tracked)
+Node  93 (attacker)  eps = —          sigma = —       (not tracked)
+Node  94 (attacker)  eps = —          sigma = —       (not tracked)
+Node  95 (attacker)  eps = —          sigma = —       (not tracked)
+Node  96 (attacker)  eps = —          sigma = —       (not tracked)
+Node  97 (attacker)  eps = —          sigma = —       (not tracked)
+Node  98 (attacker)  eps = —          sigma = —       (not tracked)
+Node  99 (attacker)  eps = —          sigma = —       (not tracked)
+Node 100 (attacker)  eps = —          sigma = —       (not tracked)
+Node 101 (attacker)  eps = —          sigma = —       (not tracked)
+Node 102 (attacker)  eps = —          sigma = —       (not tracked)
+Node 103 (attacker)  eps = —          sigma = —       (not tracked)
+Node 104 (attacker)  eps = —          sigma = —       (not tracked)
+Node 105 (attacker)  eps = —          sigma = —       (not tracked)
+Node 106 (attacker)  eps = —          sigma = —       (not tracked)
+Node 107 (attacker)  eps = —          sigma = —       (not tracked)
+Node 108 (attacker)  eps = —          sigma = —       (not tracked)
+Node 109 (attacker)  eps = —          sigma = —       (not tracked)
+Node 110 (attacker)  eps = —          sigma = —       (not tracked)
+Node 111 (attacker)  eps = —          sigma = —       (not tracked)
+Node 112 (attacker)  eps = —          sigma = —       (not tracked)
+Node 113 (attacker)  eps = —          sigma = —       (not tracked)
+Node 114 (attacker)  eps = —          sigma = —       (not tracked)
+Node 115 (attacker)  eps = —          sigma = —       (not tracked)
+Node 116 (attacker)  eps = —          sigma = —       (not tracked)
+Node 117 (attacker)  eps = —          sigma = —       (not tracked)
+Node 118 (attacker)  eps = —          sigma = —       (not tracked)
+Node 119 (attacker)  eps = —          sigma = —       (not tracked)
+Node 120 (attacker)  eps = —          sigma = —       (not tracked)
+Node 121 (attacker)  eps = —          sigma = —       (not tracked)
+Node 122 (attacker)  eps = —          sigma = —       (not tracked)
+Node 123 (attacker)  eps = —          sigma = —       (not tracked)
+Node 124 (attacker)  eps = —          sigma = —       (not tracked)
+Node 125 (attacker)  eps = —          sigma = —       (not tracked)
+Node 126 (attacker)  eps = —          sigma = —       (not tracked)
+Node 127 (attacker)  eps = —          sigma = —       (not tracked)
+Node 128 (attacker)  eps = —          sigma = —       (not tracked)
+Node 129 (attacker)  eps = —          sigma = —       (not tracked)
+Node 130 (attacker)  eps = —          sigma = —       (not tracked)
+Node 131 (attacker)  eps = —          sigma = —       (not tracked)
+Node 132 (attacker)  eps = —          sigma = —       (not tracked)
+Node 133 (attacker)  eps = —          sigma = —       (not tracked)
+Node 134 (attacker)  eps = —          sigma = —       (not tracked)
+Node 135 (attacker)  eps = —          sigma = —       (not tracked)
+Node 136 (attacker)  eps = —          sigma = —       (not tracked)
+Node 137 (attacker)  eps = —          sigma = —       (not tracked)
+Node 138 (attacker)  eps = —          sigma = —       (not tracked)
+Node 139 (attacker)  eps = —          sigma = —       (not tracked)
+Node 140 (attacker)  eps = —          sigma = —       (not tracked)
+Node 141 (attacker)  eps = —          sigma = —       (not tracked)
+Node 142 (attacker)  eps = —          sigma = —       (not tracked)
+Node 143 (attacker)  eps = —          sigma = —       (not tracked)
+Node 144 (attacker)  eps = —          sigma = —       (not tracked)
+Node 145 (attacker)  eps = —          sigma = —       (not tracked)
+Node 146 (attacker)  eps = —          sigma = —       (not tracked)
+Node 147 (attacker)  eps = —          sigma = —       (not tracked)
+Node 148 (attacker)  eps = —          sigma = —       (not tracked)
+Node 149 (attacker)  eps = —          sigma = —       (not tracked)
+Node 150 (attacker)  eps = —          sigma = —       (not tracked)
+Node 151 (attacker)  eps = —          sigma = —       (not tracked)
+Node 152 (attacker)  eps = —          sigma = —       (not tracked)
+Node 153 (attacker)  eps = —          sigma = —       (not tracked)
+Node 154 (attacker)  eps = —          sigma = —       (not tracked)
+Node 155 (attacker)  eps = —          sigma = —       (not tracked)
+Node 156 (attacker)  eps = —          sigma = —       (not tracked)
+Node 157 (attacker)  eps = —          sigma = —       (not tracked)
+Node 158 (attacker)  eps = —          sigma = —       (not tracked)
+Node 159 (attacker)  eps = —          sigma = —       (not tracked)
+Node 160 (attacker)  eps = —          sigma = —       (not tracked)
+Node 161 (attacker)  eps = —          sigma = —       (not tracked)
+Node 162 (attacker)  eps = —          sigma = —       (not tracked)
+Node 163 (attacker)  eps = —          sigma = —       (not tracked)
+Node 164 (attacker)  eps = —          sigma = —       (not tracked)
+Node 165 (attacker)  eps = —          sigma = —       (not tracked)
+Node 166 (attacker)  eps = —          sigma = —       (not tracked)
+Node 167 (attacker)  eps = —          sigma = —       (not tracked)
+Node 168 (attacker)  eps = —          sigma = —       (not tracked)
+Node 169 (attacker)  eps = —          sigma = —       (not tracked)
+Node 170 (attacker)  eps = —          sigma = —       (not tracked)
+Node 171 (attacker)  eps = —          sigma = —       (not tracked)
+Node 172 (attacker)  eps = —          sigma = —       (not tracked)
+Node 173 (attacker)  eps = —          sigma = —       (not tracked)
+Node 174 (attacker)  eps = —          sigma = —       (not tracked)
+Node 175 (attacker)  eps = —          sigma = —       (not tracked)
+Node 176 (attacker)  eps = —          sigma = —       (not tracked)
+Node 177 (attacker)  eps = —          sigma = —       (not tracked)
+Node 178 (attacker)  eps = —          sigma = —       (not tracked)
+Node 179 (attacker)  eps = —          sigma = —       (not tracked)
+Node 180 (attacker)  eps = —          sigma = —       (not tracked)
+Node 181 (attacker)  eps = —          sigma = —       (not tracked)
+Node 182 (attacker)  eps = —          sigma = —       (not tracked)
+Node 183 (attacker)  eps = —          sigma = —       (not tracked)
+Node 184 (attacker)  eps = —          sigma = —       (not tracked)
+Node 185 (attacker)  eps = —          sigma = —       (not tracked)
+Node 186 (attacker)  eps = —          sigma = —       (not tracked)
+Node 187 (attacker)  eps = —          sigma = —       (not tracked)
+Node 188 (attacker)  eps = —          sigma = —       (not tracked)
+Node 189 (attacker)  eps = —          sigma = —       (not tracked)
+Node 190 (attacker)  eps = —          sigma = —       (not tracked)
+Node 191 (attacker)  eps = —          sigma = —       (not tracked)
+Node 192 (attacker)  eps = —          sigma = —       (not tracked)
+Node 193 (attacker)  eps = —          sigma = —       (not tracked)
+Node 194 (attacker)  eps = —          sigma = —       (not tracked)
+Node 195 (attacker)  eps = —          sigma = —       (not tracked)
+Node 196 (attacker)  eps = —          sigma = —       (not tracked)
+Node 197 (attacker)  eps = —          sigma = —       (not tracked)
+Node 198 (attacker)  eps = —          sigma = —       (not tracked)
+Node 199 (attacker)  eps = —          sigma = —       (not tracked)
+Node 200 (honest  )  eps =   6.9262  sigma =  0.000  frozen = False
+Node 201 (honest  )  eps =   7.4253  sigma =  0.000  frozen = False
+Node 202 (honest  )  eps =   5.5592  sigma =  0.000  frozen = False
+Node 203 (honest  )  eps =   7.3515  sigma =  0.000  frozen = False
+Node 204 (honest  )  eps =   5.2077  sigma =  0.000  frozen = False
+Node 205 (honest  )  eps =   5.8722  sigma =  0.000  frozen = False
+Node 206 (honest  )  eps =   6.6382  sigma =  0.000  frozen = False
+Node 207 (honest  )  eps =   6.5386  sigma =  0.000  frozen = False
+Node 208 (honest  )  eps =   6.9470  sigma =  0.000  frozen = False
+Node 209 (honest  )  eps =   6.0199  sigma =  0.000  frozen = False
+Node 210 (honest  )  eps =   5.3852  sigma =  0.000  frozen = False
+Node 211 (honest  )  eps =   6.6792  sigma =  0.000  frozen = False
+Node 212 (honest  )  eps =   7.0749  sigma =  0.000  frozen = False
+Node 213 (honest  )  eps =   7.0128  sigma =  0.000  frozen = False
+Node 214 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 215 (honest  )  eps =   7.4255  sigma =  0.000  frozen = False
+Node 216 (honest  )  eps =   6.6213  sigma =  0.000  frozen = False
+Node 217 (honest  )  eps =   6.1663  sigma =  0.000  frozen = False
+Node 218 (honest  )  eps =   6.8550  sigma =  0.000  frozen = False
+Node 219 (honest  )  eps =   6.6762  sigma =  0.000  frozen = False
+Node 220 (honest  )  eps =   6.6156  sigma =  0.000  frozen = False
+Node 221 (honest  )  eps =   6.5735  sigma =  0.000  frozen = False
+Node 222 (honest  )  eps =   6.8814  sigma =  0.000  frozen = False
+Node 223 (honest  )  eps =   6.9348  sigma =  0.000  frozen = False
+Node 224 (honest  )  eps =   5.6635  sigma =  0.000  frozen = False
+Node 225 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 226 (honest  )  eps =   6.9002  sigma =  0.000  frozen = False
+Node 227 (honest  )  eps =   5.6606  sigma =  0.000  frozen = False
+Node 228 (honest  )  eps =   7.1520  sigma =  0.000  frozen = False
+Node 229 (honest  )  eps =   6.4515  sigma =  0.000  frozen = False
+Node 230 (honest  )  eps =   6.5510  sigma =  0.000  frozen = False
+Node 231 (honest  )  eps =   5.3477  sigma =  0.000  frozen = False
+Node 232 (honest  )  eps =   4.3934  sigma =  0.000  frozen = False
+Node 233 (honest  )  eps =   7.4914  sigma =  0.000  frozen = False
+Node 234 (honest  )  eps =   6.6723  sigma =  0.000  frozen = False
+Node 235 (honest  )  eps =   5.7902  sigma =  0.000  frozen = False
+Node 236 (honest  )  eps =   6.9275  sigma =  0.000  frozen = False
+Node 237 (honest  )  eps =   5.3417  sigma =  0.000  frozen = False
+Node 238 (honest  )  eps =   5.4324  sigma =  0.000  frozen = False
+Node 239 (honest  )  eps =   6.7703  sigma =  0.000  frozen = False
+Node 240 (honest  )  eps =   6.3823  sigma =  0.000  frozen = False
+Node 241 (honest  )  eps =   7.3282  sigma =  0.000  frozen = False
+Node 242 (honest  )  eps =   7.0114  sigma =  0.000  frozen = False
+Node 243 (honest  )  eps =   7.3886  sigma =  0.000  frozen = False
+Node 244 (honest  )  eps =   6.4310  sigma =  0.000  frozen = False
+Node 245 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 246 (honest  )  eps =   5.6899  sigma =  0.000  frozen = False
+Node 247 (honest  )  eps =   7.3467  sigma =  0.600  frozen = False
+Node 248 (honest  )  eps =   6.1907  sigma =  0.000  frozen = False
+Node 249 (honest  )  eps =   7.3739  sigma =  0.000  frozen = False
+Node 250 (honest  )  eps =   6.1441  sigma =  0.600  frozen = False
+Node 251 (honest  )  eps =   6.6107  sigma =  0.000  frozen = False
+Node 252 (honest  )  eps =   6.9760  sigma =  0.000  frozen = False
+Node 253 (honest  )  eps =   5.8451  sigma =  0.000  frozen = False
+Node 254 (honest  )  eps =   5.7673  sigma =  0.000  frozen = False
+Node 255 (honest  )  eps =   6.1198  sigma =  0.000  frozen = False
+Node 256 (honest  )  eps =   6.4744  sigma =  0.000  frozen = False
+Node 257 (honest  )  eps =   6.4649  sigma =  0.000  frozen = False
+Node 258 (honest  )  eps =   6.8978  sigma =  0.000  frozen = False
+Node 259 (honest  )  eps =   6.2838  sigma =  0.000  frozen = False
+Node 260 (honest  )  eps =   5.7854  sigma =  0.000  frozen = False
+Node 261 (honest  )  eps =   6.5623  sigma =  0.000  frozen = False
+Node 262 (honest  )  eps =   7.4154  sigma =  0.000  frozen = False
+Node 263 (honest  )  eps =   6.6713  sigma =  0.600  frozen = False
+Node 264 (honest  )  eps =   6.6260  sigma =  0.000  frozen = False
+Node 265 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 266 (honest  )  eps =   6.8501  sigma =  0.000  frozen = False
+Node 267 (honest  )  eps =   6.2410  sigma =  0.600  frozen = False
+Node 268 (honest  )  eps =   7.4912  sigma =  0.000  frozen = False
+Node 269 (honest  )  eps =   5.7070  sigma =  0.000  frozen = False
+Node 270 (honest  )  eps =   7.2735  sigma =  0.000  frozen = False
+Node 271 (honest  )  eps =   6.0520  sigma =  0.000  frozen = False
+Node 272 (honest  )  eps =   5.5304  sigma =  0.000  frozen = False
+Node 273 (honest  )  eps =   7.1718  sigma =  0.000  frozen = False
+Node 274 (honest  )  eps =   5.6863  sigma =  0.000  frozen = False
+Node 275 (honest  )  eps =   7.0271  sigma =  0.600  frozen = False
+Node 276 (honest  )  eps =   5.2298  sigma =  0.000  frozen = False
+Node 277 (honest  )  eps =   5.4205  sigma =  0.000  frozen = False
+Node 278 (honest  )  eps =   6.3603  sigma =  0.000  frozen = False
+Node 279 (honest  )  eps =   7.1000  sigma =  0.000  frozen = False
+Node 280 (honest  )  eps =   6.5205  sigma =  0.000  frozen = False
+Node 281 (honest  )  eps =   7.5289  sigma =  0.000  frozen = False
+Node 282 (honest  )  eps =   5.4293  sigma =  0.000  frozen = False
+Node 283 (honest  )  eps =   6.8371  sigma =  0.000  frozen = False
+Node 284 (honest  )  eps =   6.7310  sigma =  0.000  frozen = False
+Node 285 (honest  )  eps =   5.7076  sigma =  0.000  frozen = False
+Node 286 (honest  )  eps =   5.8665  sigma =  0.000  frozen = False
+Node 287 (honest  )  eps =   6.0892  sigma =  0.000  frozen = False
+Node 288 (honest  )  eps =   6.8525  sigma =  0.000  frozen = False
+Node 289 (honest  )  eps =   5.7158  sigma =  0.000  frozen = False
+Node 290 (honest  )  eps =   5.1549  sigma =  0.000  frozen = False
+Node 291 (honest  )  eps =   6.1376  sigma =  0.000  frozen = False
+Node 292 (honest  )  eps =   5.2505  sigma =  0.000  frozen = False
+Node 293 (honest  )  eps =   6.9816  sigma =  0.000  frozen = False
+Node 294 (honest  )  eps =   7.4506  sigma =  0.000  frozen = False
+Node 295 (honest  )  eps =   5.2910  sigma =  0.000  frozen = False
+Node 296 (honest  )  eps =   6.1102  sigma =  0.000  frozen = False
+Node 297 (honest  )  eps =   6.3216  sigma =  0.000  frozen = False
+Node 298 (honest  )  eps =   7.0464  sigma =  0.000  frozen = False
+Node 299 (honest  )  eps =   5.3319  sigma =  0.000  frozen = False
+Node 300 (honest  )  eps =   5.9890  sigma =  0.000  frozen = False
+Node 301 (honest  )  eps =   6.1076  sigma =  0.000  frozen = False
+Node 302 (honest  )  eps =   7.4311  sigma =  0.000  frozen = False
+Node 303 (honest  )  eps =   7.3166  sigma =  0.000  frozen = False
+Node 304 (honest  )  eps =   4.0447  sigma =  0.000  frozen = False
+Node 305 (honest  )  eps =   6.5899  sigma =  0.000  frozen = False
+Node 306 (honest  )  eps =   7.5641  sigma =  0.000  frozen = False
+Node 307 (honest  )  eps =   6.0036  sigma =  0.000  frozen = False
+Node 308 (honest  )  eps =   7.4976  sigma =  0.000  frozen = False
+Node 309 (honest  )  eps =   6.2062  sigma =  0.000  frozen = False
+Node 310 (honest  )  eps =   6.9049  sigma =  0.000  frozen = False
+Node 311 (honest  )  eps =   7.3776  sigma =  0.000  frozen = False
+Node 312 (honest  )  eps =   7.2256  sigma =  0.000  frozen = False
+Node 313 (honest  )  eps =   7.2013  sigma =  0.000  frozen = False
+Node 314 (honest  )  eps =   7.1539  sigma =  0.000  frozen = False
+Node 315 (honest  )  eps =   7.1091  sigma =  0.000  frozen = False
+Node 316 (honest  )  eps =   5.8649  sigma =  0.000  frozen = False
+Node 317 (honest  )  eps =   6.5609  sigma =  0.000  frozen = False
+Node 318 (honest  )  eps =   7.6677  sigma =  0.000  frozen = False
+Node 319 (honest  )  eps =   7.3447  sigma =  0.000  frozen = False
+Node 320 (honest  )  eps =   6.3310  sigma =  0.000  frozen = False
+Node 321 (honest  )  eps =   6.2584  sigma =  0.600  frozen = False
+Node 322 (honest  )  eps =   6.7108  sigma =  0.000  frozen = False
+Node 323 (honest  )  eps =   6.9582  sigma =  0.000  frozen = False
+Node 324 (honest  )  eps =   5.8929  sigma =  0.000  frozen = False
+Node 325 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 326 (honest  )  eps =   7.2085  sigma =  0.000  frozen = False
+Node 327 (honest  )  eps =   6.1530  sigma =  0.000  frozen = False
+Node 328 (honest  )  eps =   7.3835  sigma =  0.000  frozen = False
+Node 329 (honest  )  eps =   7.2184  sigma =  0.000  frozen = False
+Node 330 (honest  )  eps =   7.3468  sigma =  0.000  frozen = False
+Node 331 (honest  )  eps =   5.9221  sigma =  0.000  frozen = False
+Node 332 (honest  )  eps =   6.5126  sigma =  0.000  frozen = False
+Node 333 (honest  )  eps =   7.3947  sigma =  0.600  frozen = False
+Node 334 (honest  )  eps =   6.7517  sigma =  0.000  frozen = False
+Node 335 (honest  )  eps =   6.1827  sigma =  0.000  frozen = False
+Node 336 (honest  )  eps =   3.3481  sigma =  0.000  frozen = False
+Node 337 (honest  )  eps =   6.4320  sigma =  0.000  frozen = False
+Node 338 (honest  )  eps =   6.6170  sigma =  0.000  frozen = False
+Node 339 (honest  )  eps =   6.6188  sigma =  0.000  frozen = False
+Node 340 (honest  )  eps =   7.4809  sigma =  0.000  frozen = False
+Node 341 (honest  )  eps =   6.2721  sigma =  0.000  frozen = False
+Node 342 (honest  )  eps =   5.8785  sigma =  0.000  frozen = False
+Node 343 (honest  )  eps =   5.8351  sigma =  0.000  frozen = False
+Node 344 (honest  )  eps =   7.4874  sigma =  0.000  frozen = False
+Node 345 (honest  )  eps =   5.7530  sigma =  0.000  frozen = False
+Node 346 (honest  )  eps =   7.7331  sigma =  0.000  frozen = False
+Node 347 (honest  )  eps =   6.5473  sigma =  0.000  frozen = False
+Node 348 (honest  )  eps =   5.6411  sigma =  0.000  frozen = False
+Node 349 (honest  )  eps =   5.6782  sigma =  0.000  frozen = False
+Node 350 (honest  )  eps =   6.1347  sigma =  0.000  frozen = False
+Node 351 (honest  )  eps =   5.6797  sigma =  0.000  frozen = False
+Node 352 (honest  )  eps =   7.5863  sigma =  0.000  frozen = False
+Node 353 (honest  )  eps =   7.5696  sigma =  0.600  frozen = False
+Node 354 (honest  )  eps =   6.5603  sigma =  0.000  frozen = False
+Node 355 (honest  )  eps =   6.4988  sigma =  0.000  frozen = False
+Node 356 (honest  )  eps =   5.9873  sigma =  0.000  frozen = False
+Node 357 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 358 (honest  )  eps =   7.2335  sigma =  0.000  frozen = False
+Node 359 (honest  )  eps =   5.6608  sigma =  0.000  frozen = False
+Node 360 (honest  )  eps =   6.9644  sigma =  0.000  frozen = False
+Node 361 (honest  )  eps =   5.7366  sigma =  0.000  frozen = False
+Node 362 (honest  )  eps =   5.9202  sigma =  0.000  frozen = False
+Node 363 (honest  )  eps =   6.6319  sigma =  0.000  frozen = False
+Node 364 (honest  )  eps =   6.1658  sigma =  0.000  frozen = False
+Node 365 (honest  )  eps =   2.0059  sigma =  0.000  frozen = False
+Node 366 (honest  )  eps =   6.5400  sigma =  0.000  frozen = False
+Node 367 (honest  )  eps =   6.9636  sigma =  0.000  frozen = False
+Node 368 (honest  )  eps =   6.3521  sigma =  0.000  frozen = False
+Node 369 (honest  )  eps =   7.2969  sigma =  0.000  frozen = False
+Node 370 (honest  )  eps =   5.2953  sigma =  0.000  frozen = False
+Node 371 (honest  )  eps =   6.5101  sigma =  0.000  frozen = False
+Node 372 (honest  )  eps =   7.3994  sigma =  0.000  frozen = False
+Node 373 (honest  )  eps =   6.0113  sigma =  0.000  frozen = False
+Node 374 (honest  )  eps =   6.4805  sigma =  0.000  frozen = False
+Node 375 (honest  )  eps =   6.9756  sigma =  0.000  frozen = False
+Node 376 (honest  )  eps =   6.4530  sigma =  0.000  frozen = False
+Node 377 (honest  )  eps =   6.5374  sigma =  0.000  frozen = False
+Node 378 (honest  )  eps =   6.5457  sigma =  0.000  frozen = False
+Node 379 (honest  )  eps =   6.1543  sigma =  0.000  frozen = False
+Node 380 (honest  )  eps =   7.4757  sigma =  0.000  frozen = False
+Node 381 (honest  )  eps =   7.4929  sigma =  0.000  frozen = False
+Node 382 (honest  )  eps =   6.1121  sigma =  0.000  frozen = False
+Node 383 (honest  )  eps =   5.6635  sigma =  0.000  frozen = False
+Node 384 (honest  )  eps =   6.2709  sigma =  0.000  frozen = False
+Node 385 (honest  )  eps =   5.8103  sigma =  0.000  frozen = False
+Node 386 (honest  )  eps =   6.3633  sigma =  0.000  frozen = False
+Node 387 (honest  )  eps =   5.7422  sigma =  0.000  frozen = False
+Node 388 (honest  )  eps =   5.7681  sigma =  0.000  frozen = False
+Node 389 (honest  )  eps =   7.3592  sigma =  0.000  frozen = False
+Node 390 (honest  )  eps =   6.6996  sigma =  0.600  frozen = False
+Node 391 (honest  )  eps =   7.1514  sigma =  0.000  frozen = False
+Node 392 (honest  )  eps =   5.7391  sigma =  0.000  frozen = False
+Node 393 (honest  )  eps =   7.0457  sigma =  0.000  frozen = False
+Node 394 (honest  )  eps =   7.4746  sigma =  0.000  frozen = False
+Node 395 (honest  )  eps =   6.0879  sigma =  0.000  frozen = False
+Node 396 (honest  )  eps =   6.5869  sigma =  0.000  frozen = False
+Node 397 (honest  )  eps =   6.5500  sigma =  0.000  frozen = False
+Node 398 (honest  )  eps =   6.0608  sigma =  0.000  frozen = False
+Node 399 (honest  )  eps =   5.8317  sigma =  0.000  frozen = False
+Node 400 (honest  )  eps =   7.6741  sigma =  0.000  frozen = False
+Node 401 (honest  )  eps =   7.5559  sigma =  0.000  frozen = False
+Node 402 (honest  )  eps =   7.7517  sigma =  0.000  frozen = False
+Node 403 (honest  )  eps =   7.5758  sigma =  0.000  frozen = False
+Node 404 (honest  )  eps =   5.8744  sigma =  0.000  frozen = False
+Node 405 (honest  )  eps =   7.0133  sigma =  0.000  frozen = False
+Node 406 (honest  )  eps =   5.8480  sigma =  0.000  frozen = False
+Node 407 (honest  )  eps =   5.7830  sigma =  0.000  frozen = False
+Node 408 (honest  )  eps =   7.4961  sigma =  0.000  frozen = False
+Node 409 (honest  )  eps =   7.3333  sigma =  0.000  frozen = False
+Node 410 (honest  )  eps =   7.3692  sigma =  0.000  frozen = False
+Node 411 (honest  )  eps =   6.7478  sigma =  0.000  frozen = False
+Node 412 (honest  )  eps =   6.4339  sigma =  0.000  frozen = False
+Node 413 (honest  )  eps =   6.6279  sigma =  0.000  frozen = False
+Node 414 (honest  )  eps =   7.1166  sigma =  0.000  frozen = False
+Node 415 (honest  )  eps =   6.0915  sigma =  0.000  frozen = False
+Node 416 (honest  )  eps =   6.4377  sigma =  0.000  frozen = False
+Node 417 (honest  )  eps =   6.5562  sigma =  0.000  frozen = False
+Node 418 (honest  )  eps =   7.4185  sigma =  0.000  frozen = False
+Node 419 (honest  )  eps =   6.5283  sigma =  0.000  frozen = False
+Node 420 (honest  )  eps =   6.6124  sigma =  0.000  frozen = False
+Node 421 (honest  )  eps =   7.2056  sigma =  0.000  frozen = False
+Node 422 (honest  )  eps =   6.8398  sigma =  0.000  frozen = False
+Node 423 (honest  )  eps =   7.0194  sigma =  0.000  frozen = False
+Node 424 (honest  )  eps =   6.3325  sigma =  0.000  frozen = False
+Node 425 (honest  )  eps =   7.6879  sigma =  0.000  frozen = False
+Node 426 (honest  )  eps =   6.1706  sigma =  0.000  frozen = False
+Node 427 (honest  )  eps =   5.8725  sigma =  0.000  frozen = False
+Node 428 (honest  )  eps =   5.7080  sigma =  0.000  frozen = False
+Node 429 (honest  )  eps =   7.4963  sigma =  0.600  frozen = False
+Node 430 (honest  )  eps =   7.0872  sigma =  0.000  frozen = False
+Node 431 (honest  )  eps =   6.1270  sigma =  0.000  frozen = False
+Node 432 (honest  )  eps =   5.8647  sigma =  0.000  frozen = False
+Node 433 (honest  )  eps =   7.3617  sigma =  0.000  frozen = False
+Node 434 (honest  )  eps =   6.4426  sigma =  0.000  frozen = False
+Node 435 (honest  )  eps =   6.6127  sigma =  0.600  frozen = False
+Node 436 (honest  )  eps =   6.2345  sigma =  0.000  frozen = False
+Node 437 (honest  )  eps =   5.6547  sigma =  0.000  frozen = False
+Node 438 (honest  )  eps =   5.1943  sigma =  0.000  frozen = False
+Node 439 (honest  )  eps =   6.4028  sigma =  0.000  frozen = False
+Node 440 (honest  )  eps =   6.9334  sigma =  0.000  frozen = False
+Node 441 (honest  )  eps =   6.9466  sigma =  0.000  frozen = False
+Node 442 (honest  )  eps =   5.8144  sigma =  0.600  frozen = False
+Node 443 (honest  )  eps =   4.4508  sigma =  0.000  frozen = False
+Node 444 (honest  )  eps =   5.3998  sigma =  0.000  frozen = False
+Node 445 (honest  )  eps =   6.8711  sigma =  0.000  frozen = False
+Node 446 (honest  )  eps =   6.8921  sigma =  0.000  frozen = False
+Node 447 (honest  )  eps =   5.4493  sigma =  0.000  frozen = False
+Node 448 (honest  )  eps =   6.6598  sigma =  0.000  frozen = False
+Node 449 (honest  )  eps =   6.9199  sigma =  0.000  frozen = False
+Node 450 (honest  )  eps =   4.8890  sigma =  0.000  frozen = False
+Node 451 (honest  )  eps =   6.8894  sigma =  0.000  frozen = False
+Node 452 (honest  )  eps =   5.4699  sigma =  0.000  frozen = False
+Node 453 (honest  )  eps =   5.8344  sigma =  0.000  frozen = False
+Node 454 (honest  )  eps =   5.6585  sigma =  0.000  frozen = False
+Node 455 (honest  )  eps =   6.1239  sigma =  0.000  frozen = False
+Node 456 (honest  )  eps =   6.5176  sigma =  0.000  frozen = False
+Node 457 (honest  )  eps =   5.7519  sigma =  0.000  frozen = False
+Node 458 (honest  )  eps =   5.9568  sigma =  0.000  frozen = False
+Node 459 (honest  )  eps =   7.3002  sigma =  0.000  frozen = False
+Node 460 (honest  )  eps =   5.4747  sigma =  0.000  frozen = False
+Node 461 (honest  )  eps =   6.2021  sigma =  0.000  frozen = False
+Node 462 (honest  )  eps =   5.8349  sigma =  0.000  frozen = False
+Node 463 (honest  )  eps =   5.7057  sigma =  0.000  frozen = False
+Node 464 (honest  )  eps =   7.8742  sigma =  0.000  frozen = False
+Node 465 (honest  )  eps =   7.1528  sigma =  0.000  frozen = False
+Node 466 (honest  )  eps =   7.3319  sigma =  0.000  frozen = False
+Node 467 (honest  )  eps =   5.9146  sigma =  0.000  frozen = False
+Node 468 (honest  )  eps =   6.6164  sigma =  0.000  frozen = False
+Node 469 (honest  )  eps =   6.5439  sigma =  0.000  frozen = False
+Node 470 (honest  )  eps =   7.0048  sigma =  0.000  frozen = False
+Node 471 (honest  )  eps =   6.0672  sigma =  0.000  frozen = False
+Node 472 (honest  )  eps =   7.6650  sigma =  0.000  frozen = False
+Node 473 (honest  )  eps =   0.0000  sigma =  0.000  frozen = False
+Node 474 (honest  )  eps =   6.2043  sigma =  0.000  frozen = False
+Node 475 (honest  )  eps =   5.7035  sigma =  0.000  frozen = False
+Node 476 (honest  )  eps =   6.9928  sigma =  0.000  frozen = False
+Node 477 (honest  )  eps =   7.5394  sigma =  0.000  frozen = False
+Node 478 (honest  )  eps =   5.1570  sigma =  0.000  frozen = False
+Node 479 (honest  )  eps =   6.1450  sigma =  0.000  frozen = False
+Node 480 (honest  )  eps =   7.4938  sigma =  0.000  frozen = False
+Node 481 (honest  )  eps =   6.1071  sigma =  0.000  frozen = False
+Node 482 (honest  )  eps =   5.8948  sigma =  0.000  frozen = False
+Node 483 (honest  )  eps =   7.2581  sigma =  0.000  frozen = False
+Node 484 (honest  )  eps =   7.2617  sigma =  0.000  frozen = False
+Node 485 (honest  )  eps =   5.7698  sigma =  0.000  frozen = False
+Node 486 (honest  )  eps =   7.1759  sigma =  0.000  frozen = False
+Node 487 (honest  )  eps =   6.1869  sigma =  0.000  frozen = False
+Node 488 (honest  )  eps =   7.6351  sigma =  0.600  frozen = False
+Node 489 (honest  )  eps =   7.3584  sigma =  0.000  frozen = False
+Node 490 (honest  )  eps =   6.4872  sigma =  0.000  frozen = False
+Node 491 (honest  )  eps =   6.6347  sigma =  0.000  frozen = False
+Node 492 (honest  )  eps =   7.3591  sigma =  0.600  frozen = False
+Node 493 (honest  )  eps =   5.2933  sigma =  0.000  frozen = False
+Node 494 (honest  )  eps =   7.4586  sigma =  0.000  frozen = False
+Node 495 (honest  )  eps =   6.5584  sigma =  0.000  frozen = False
+Node 496 (honest  )  eps =   6.6631  sigma =  0.000  frozen = False
+Node 497 (honest  )  eps =   6.8662  sigma =  0.000  frozen = False
+Node 498 (honest  )  eps =   6.0410  sigma =  0.000  frozen = False
+Node 499 (honest  )  eps =   7.5175  sigma =  0.000  frozen = False
+------------------------------------------------------------
+eps_system (max honest): 7.8742
+eps_avg (honest):        6.4554
+eps_std (honest):        0.8654
+n_frozen:                0/300
+============================================================
