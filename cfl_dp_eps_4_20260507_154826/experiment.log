@@ -1,0 +1,7 @@
+2026-05-07 15:48:26 | INFO    | dpfl | Experiment start: algorithm=cfl_fedavg, dataset=mnist, model=mlp, device=cuda
+2026-05-07 15:48:26 | INFO    | dpfl | Config: nodes=500, attackers=0, rounds=50, noise_mode=none, attack=scale
+2026-05-07 15:48:26 | INFO    | dpfl.data.mnist_dataset | Loading MNIST dataset...
+2026-05-07 15:48:26 | INFO    | dpfl.data.mnist_dataset | MNIST loaded: 60000 train, 10000 test samples
+2026-05-07 15:49:14 | INFO    | dpfl.core.base_simulator | Setup complete: 500 nodes (0 attackers), param_dim=50890, split=iid
+2026-05-07 15:49:14 | DEBUG   | dpfl.core.base_simulator | Attacker IDs: set()
+2026-05-07 15:49:15 | INFO    | dpfl.algorithms.cfl_fedavg.simulator | CFL-DP-FedAvg: K=500, q=0.050, S=0.0234, z=0.9000, σ=zS/(qW)=0.0008, DP=True
